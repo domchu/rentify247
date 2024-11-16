@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after{
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style-type: none;
+box-sizing: border-box;
+font-family: "Outfit", sans-serif;
+}
+
+
+:root {
+  --primary-clr: #3498db;
+  --secondary-clr:  #00246B;
+  --textiary-clr: #8AB6F9;
+  --natural-clr-gray:  #CADCFC;
+  --natural-clr-white:#fff;
+  --natural-clr-dark:#000;
+  --natural-clr-smoke:#ccc;
+  --natural-clr-danger:#c34848;
+
+}
