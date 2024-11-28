@@ -11,6 +11,7 @@
                                 Category
                             </a>
                             <div class="sb-sidenav-menu-heading">Interface</div>
+                            {{-- Products --}}
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Products
@@ -22,6 +23,7 @@
                                     <a class="nav-link" href="{{url('admin/products')}}">View Products</a>
                                 </nav>
                             </div>
+                            {{-- students --}}
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseStudents" aria-expanded="false" aria-controls="collapseStudents">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Students
@@ -31,6 +33,18 @@
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/students/create')}}">Add Students</a>
                                     <a class="nav-link" href="{{url('admin/students')}}">View Students</a>
+                                </nav>
+                            </div>
+                            {{-- client --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseClients" aria-expanded="false" aria-controls="collapseClients">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Clients
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseClients" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="{{url('admin/clients/create')}}">Add Clients</a>
+                                    <a class="nav-link" href="{{url('admin/clients')}}">View Clients</a>
                                 </nav>
                             </div>
 
