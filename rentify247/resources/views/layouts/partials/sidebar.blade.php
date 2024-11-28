@@ -1,7 +1,7 @@
  <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Core</div>
+                            <div class="sb-sidenav-menu-heading">Core Menu</div>
                             <a class="nav-link" href="{{url('admin/dashboard')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
@@ -10,45 +10,81 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Category
                             </a>
-                            <div class="sb-sidenav-menu-heading">Interface</div>
-                            {{-- Products --}}
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
+                            <div class="sb-sidenav-menu-heading">INTERFACE LISTING</div>
+                            {{-- TENANTS --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTenants" aria-expanded="false" aria-controls="collapseTenants">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Products
+                                Tenants
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseProducts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseTenants" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{url('admin/products/create')}}">Add Products</a>
-                                    <a class="nav-link" href="{{url('admin/products')}}">View Products</a>
+                                    <a class="nav-link" href="{{url('admin/tenants/create')}}">Add Tenants</a>
+                                    <a class="nav-link" href="{{url('admin/tenants')}}">View Tenants</a>
                                 </nav>
                             </div>
-                            {{-- students --}}
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseStudents" aria-expanded="false" aria-controls="collapseStudents">
+                            {{-- LANDLORDS --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLandlords" aria-expanded="false" aria-controls="collapseLandlords">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Students
+                                Landlords
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseStudents" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseLandlords" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{url('admin/students/create')}}">Add Students</a>
-                                    <a class="nav-link" href="{{url('admin/students')}}">View Students</a>
+                                    <a class="nav-link" href="{{url('admin/landlords/create')}}">Add Landlords</a>
+                                    <a class="nav-link" href="{{url('admin/landlords')}}">View Landlords</a>
                                 </nav>
                             </div>
-                            {{-- client --}}
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseClients" aria-expanded="false" aria-controls="collapseClients">
+                            {{-- CLIENTS --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLocations" aria-expanded="false" aria-controls="collapseLocations">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Clients
+                                Locations
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseClients" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseLocations" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{url('admin/clients/create')}}">Add Clients</a>
-                                    <a class="nav-link" href="{{url('admin/clients')}}">View Clients</a>
+                                    <a class="nav-link" href="{{url('admin/locations/create')}}">Add Locations</a>
+                                    <a class="nav-link" href="{{url('admin/locations')}}">View Locations</a>
+                                </nav>
+                            </div>
+                            {{-- INVOICES --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseInvoices" aria-expanded="false" aria-controls="collapseInvoices">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Invoices
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseInvoices" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="{{url('admin/invoices/create')}}">Add Invoices</a>
+                                    <a class="nav-link" href="{{url('admin/invoices')}}">View Invoices</a>
+                                </nav>
+                            </div>
+                            {{-- LEASE --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLease" aria-expanded="false" aria-controls="collapseLease">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Lease
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLease" aria-labelledby="headingFive" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="{{url('admin/lease/create')}}">Add Lease</a>
+                                    <a class="nav-link" href="{{url('admin/lease')}}">View Lease</a>
                                 </nav>
                             </div>
 
-                            
+                           
+                            <div class="sb-sidenav-menu-heading">CHARTS STATISTICS</div>
+                            <a class="nav-link" href="charts.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                Charts
+                            </a>
+                            <a class="nav-link" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                Tables
+                            </a>
+
+                            {{-- AUTH --}}
+                             <div class="sb-sidenav-menu-heading">OTHERS</div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                                 Pages
@@ -80,19 +116,18 @@
                                     </div>
                                 </nav>
                             </div>
-                            <div class="sb-sidenav-menu-heading">Addons</div>
-                            <a class="nav-link" href="charts.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                Charts
-                            </a>
-                            <a class="nav-link" href="tables.html">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Tables
-                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
-                        <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                                     <!-- Authentication -->
+                <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+
+                    <a class="dropdown-item" href="{{ route('logout')}}"
+                            onclick="event.preventDefault();
+                                        this.closest('form').submit();">
+                        {{ __('Log Out') }}
+                    </a>
+                </form>
                     </div>
                 </nav>
