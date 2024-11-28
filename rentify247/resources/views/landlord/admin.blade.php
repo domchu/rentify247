@@ -15,11 +15,11 @@
 </head>
 
 <body class="sb-nav-fixed">
-    @include('layouts.partials.navbar')
+    @include('landlord.partials.navbar')
 
     <div id="layoutSidenav">
         <div id="layoutSidenav_nav">
-            @include('layouts.partials.sidebar')
+            @include('landlord.partials.sidebar')
 
         </div>
         <div id="layoutSidenav_content">
@@ -29,7 +29,7 @@
 
                 </div>
             </main>
-            @include('layouts.partials.footer')
+            @include('landlord.partials.footer')
 
         </div>
     </div>
