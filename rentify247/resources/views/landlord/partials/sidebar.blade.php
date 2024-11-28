@@ -1,7 +1,7 @@
  <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Core</div>
+                            <div class="sb-sidenav-menu-heading">Menu</div>
                             <a class="nav-link" href="{{url('admin/dashboard')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
@@ -11,28 +11,28 @@
                                 Category
                             </a>
                             <div class="sb-sidenav-menu-heading">Interface</div>
-                            {{-- Products --}}
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProducts" aria-expanded="false" aria-controls="collapseProducts">
+                            {{-- Tenantts --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTenants" aria-expanded="false" aria-controls="collapseTenants">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Products
+                                Tenants
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseProducts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseTenants" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{url('admin/products/create')}}">Add Products</a>
-                                    <a class="nav-link" href="{{url('admin/products')}}">View Products</a>
+                                    <a class="nav-link" href="{{url('admin/Tenants/create')}}">Add Tenants</a>
+                                    <a class="nav-link" href="{{url('admin/Tenants')}}">View Tenants</a>
                                 </nav>
                             </div>
                             {{-- students --}}
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseStudents" aria-expanded="false" aria-controls="collapseStudents">
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePayments" aria-expanded="false" aria-controls="collapsePayments">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Students
+                                Transaction History
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseStudents" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapsePayments" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="{{url('admin/students/create')}}">Add Students</a>
-                                    <a class="nav-link" href="{{url('admin/students')}}">View Students</a>
+                                    <a class="nav-link" href="{{url('admin/payments/create')}}">Add Payments</a>
+                                    <a class="nav-link" href="{{url('admin/payments')}}">View Payments</a>
                                 </nav>
                             </div>
                             {{-- client --}}
