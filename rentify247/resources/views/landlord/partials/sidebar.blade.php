@@ -103,7 +103,7 @@
      </div>
      <div class="sb-sidenav-footer">
                      <!-- Authentication -->
-                <form method="POST" action="{{ route('admin.logout') }}">
+                <form method="POST" action="{{ route('logout') }}">
                     @csrf
 
                     <a class="dropdown-item" href="{{ route('logout')}}"
