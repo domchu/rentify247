@@ -13,11 +13,9 @@ rentify247 is accessible, powerful, and provides tools/platform required for lar
 
 ## Using  Rentify247
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Rentify247 has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Rentify247 Sponsors
 
@@ -37,11 +35,11 @@ Thank you for considering contributing to the rentify247 application!
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+In order to ensure that the rentify247 community is welcoming to all, please review and abide by the [Code of Conduct](https://rentify247.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within rentify247, please send an e-mail to ochu Dominic via [taylor@laravel.com](mailto:ochu@rentify247.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within rentify247, please send an e-mail to ochu Dominic via [ochu@rentify247.com](mailto:ochu@rentify247.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
