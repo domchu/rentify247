@@ -6,10 +6,25 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
-                            <a class="nav-link" href="{{url('admin/category')}}">
+                            {{-- <a class="nav-link" href="{{url('admin/category')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Category
+                            </a> --}}
+                            {{-- Admin Team --}}
+                             <div class="sb-sidenav-menu-heading">TEAM MEMBERS</div>
+                            {{-- TEAM --}}
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTeam" aria-expanded="false" aria-controls="collapseTeam">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                STAFF
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
+                            <div class="collapse" id="collapseTeam" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="{{url('admin/team/create')}}">Add Team</a>
+                                    <a class="nav-link" href="{{url('admin/team')}}">View Team</a>
+                                </nav>
+                            </div>
+                            {{-- INTERFACE --}}
                             <div class="sb-sidenav-menu-heading">INTERFACE LISTING</div>
                             {{-- TENANTS --}}
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTenants" aria-expanded="false" aria-controls="collapseTenants">
