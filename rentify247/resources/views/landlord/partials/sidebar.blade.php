@@ -14,7 +14,7 @@
              {{-- Tenantts --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTenants"
                  aria-expanded="false" aria-controls="collapseTenants">
-                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-people-roof"></div>
                  Tenants
                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
              </a>
@@ -24,6 +24,7 @@
                      <a class="nav-link" href="{{ url('admin/Tenants') }}">View Tenants</a>
                  </nav>
              </div>
+             {{-- <i class="fa-solid fa-house-lock"></i> --}}
              {{-- students --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePayments"
                  aria-expanded="false" aria-controls="collapsePayments">
@@ -49,6 +50,19 @@
                  <nav class="sb-sidenav-menu-nested nav">
                      <a class="nav-link" href="{{ url('admin/clients/create') }}">Add Clients</a>
                      <a class="nav-link" href="{{ url('admin/clients') }}">View Clients</a>
+                 </nav>
+             </div>
+             {{-- client --}}
+             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLease"
+                 aria-expanded="false" aria-controls="collapseLease">
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-universal-access"></i></div>
+                 Lease
+                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+             </a>
+             <div class="collapse" id="collapseLease" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
+                 <nav class="sb-sidenav-menu-nested nav">
+                     <a class="nav-link" href="{{ url('admin/lease/create') }}">Add Lease</a>
+                     <a class="nav-link" href="{{ url('admin/lease') }}">View Lease</a>
                  </nav>
              </div>
 
