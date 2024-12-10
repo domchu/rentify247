@@ -1,20 +1,17 @@
  <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
      <div class="sb-sidenav-menu">
          <div class="nav">
-             <div class="sb-sidenav-menu-heading">Menu</div>
+             <div class="sb-sidenav-menu-heading">MENU ITEMS</div>
              <a class="nav-link" href="{{ url('dashboard') }}">
                  <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                  Dashboard
              </a>
-             {{-- <a class="nav-link" href="{{url('admin/category')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Category
-                            </a> --}}
-             <div class="sb-sidenav-menu-heading">Interface</div>
-             {{-- Tenantts --}}
+           
+             <div class="sb-sidenav-menu-heading">INTERFACE</div>
+             {{-- TENANTS --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseTenants"
                  aria-expanded="false" aria-controls="collapseTenants">
-                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-people-roof"></i></div>
                  Tenants
                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
              </a>
@@ -24,10 +21,10 @@
                      <a class="nav-link" href="{{ url('admin/Tenants') }}">View Tenants</a>
                  </nav>
              </div>
-             {{-- students --}}
+             {{-- TRANSACTION HISTORY --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePayments"
                  aria-expanded="false" aria-controls="collapsePayments">
-                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-comments-dollar"></i></div>
                  Transaction History
                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
              </a>
@@ -38,28 +35,54 @@
                      <a class="nav-link" href="{{ url('admin/payments') }}">View Payments</a>
                  </nav>
              </div>
-             {{-- client --}}
+             {{-- CLIENTS --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseClients"
                  aria-expanded="false" aria-controls="collapseClients">
-                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                 <div class="sb-nav-link-icon"><i class="fa-sharp-duotone fa-solid fa-users"></i></div>
                  Clients
                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
              </a>
-             <div class="collapse" id="collapseClients" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+             <div class="collapse" id="collapseClients" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
                  <nav class="sb-sidenav-menu-nested nav">
                      <a class="nav-link" href="{{ url('admin/clients/create') }}">Add Clients</a>
                      <a class="nav-link" href="{{ url('admin/clients') }}">View Clients</a>
                  </nav>
              </div>
+             {{-- LEASE --}}
+             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLease"
+                 aria-expanded="false" aria-controls="collapseLease">
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                 Lease
+                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+             </a>
+             <div class="collapse" id="collapseLease" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
+                 <nav class="sb-sidenav-menu-nested nav">
+                     <a class="nav-link" href="{{ url('admin/lease/create') }}">Add Lease</a>
+                     <a class="nav-link" href="{{ url('admin/lease') }}">View Lease</a>
+                 </nav>
+             </div>
+             {{-- SALES --}}
+             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseSales"
+                 aria-expanded="false" aria-controls="collapseSales">
+                 <div class="sb-nav-link-icon"><i class="fa-solid fa-universal-access"></i></div>
+                 Sales
+                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+             </a>
+             <div class="collapse" id="collapseSales" aria-labelledby="headingFive" data-bs-parent="#sidenavAccordion">
+                 <nav class="sb-sidenav-menu-nested nav">
+                     <a class="nav-link" href="{{ url('admin/sales/create') }}">Add Sales</a>
+                     <a class="nav-link" href="{{ url('admin/sales') }}">View Sales</a>
+                 </nav>
+             </div>
 
-
+{{-- OTHER PAGES --}}
              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
                  aria-expanded="false" aria-controls="collapsePages">
                  <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                  Pages
                  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
              </a>
-             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+             <div class="collapse" id="collapsePages" aria-labelledby="headingSix" data-bs-parent="#sidenavAccordion">
                  <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                      <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
                          data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
@@ -74,23 +97,10 @@
                              <a class="nav-link" href="password.html">Forgot Password</a>
                          </nav>
                      </div>
-                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
-                         data-bs-target="#pagesCollapseError" aria-expanded="false"
-                         aria-controls="pagesCollapseError">
-                         Error
-                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                     </a>
-                     <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne"
-                         data-bs-parent="#sidenavAccordionPages">
-                         <nav class="sb-sidenav-menu-nested nav">
-                             <a class="nav-link" href="401.html">401 Page</a>
-                             <a class="nav-link" href="404.html">404 Page</a>
-                             <a class="nav-link" href="500.html">500 Page</a>
-                         </nav>
-                     </div>
+                     
                  </nav>
              </div>
-             <div class="sb-sidenav-menu-heading">Addons</div>
+             <div class="sb-sidenav-menu-heading">STATISTICS DATA</div>
              <a class="nav-link" href="charts.html">
                  <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                  Charts

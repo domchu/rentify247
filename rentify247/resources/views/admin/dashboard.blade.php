@@ -5,47 +5,139 @@
 
 @section('content')
     <h1 class="mt-4">Dashboard</h1>
-    <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active">Dashboard</li>
+   <div class="flex justify-between items-center mt-5">
+     <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item active">Your analytics dashboard overview </li>
     </ol>
-    <div class="row">
-        <div class="col-xl-3 col-md-6">
-            <div class="card bg-primary text-white mb-4">
-                <div class="card-body">Primary Card</div>
-                <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
-                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                </div>
-            </div>
+    <div class="flex items-center">
+     <div class="mx-2 ">
+           <a href="/"><i class="fa-solid fa-download rounded-2"></i></a>
+     </div>
+        <div class="mx-2">
+            <a href="/"><i class="fa-solid fa-clock"></i></a>
         </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card bg-warning text-white mb-4">
-                <div class="card-body">Warning Card</div>
-                <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
-                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card bg-success text-white mb-4">
-                <div class="card-body">Success Card</div>
-                <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
-                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card bg-danger text-white mb-4">
-                <div class="card-body">Danger Card</div>
-                <div class="card-footer d-flex align-items-center justify-content-between">
-                    <a class="small text-white stretched-link" href="#">View Details</a>
-                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
-                </div>
-            </div>
-        </div>
+       <div class="mx-2">
+         <a href="/"><i class="fa-solid fa-plus"></i></a>
+       </div>
+        <button type="button" class="btn btn-primary"><a href="/" class="text-white">Generate Report</a></button>
     </div>
+   
+   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">Total Landlords</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-info">370</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-info" style="width: 35%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-user"></i>
+                                <div><strong class="">Total Tenants</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-success">4310</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-success" style="width: 86%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">Total Cities</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-danger">74</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-danger" style="width: 65%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">New Leasing</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-warning">24</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-warning" style="width: 35%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">New Clients</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-primary-subtle"> 370</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="55" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-primary-subtle" style="width: 55%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">Total Revenue</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-primary">#1,567 370</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    {{-- CHARTS --}}
     <div class="row">
         <div class="col-xl-6">
             <div class="card mb-4">
@@ -66,6 +158,48 @@
             </div>
         </div>
     </div>
+    {{-- STATISTIC --}}
+    <section class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-warning text-white mb-4">
+                    <div class="card-body">Warning Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-success text-white mb-4">
+                    <div class="card-body">Success Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="#">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+                    <div class="card-body">Danger Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="{{ url('admin/team') }}">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-primary text-white mb-4">
+                    <div class="card-body">Danger Card</div>
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" href="{{ url('admin/team') }}">View Details</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- TABLES --}}
     <div class="card mb-4">
         <div class="card-header">
             <i class="fas fa-table me-1"></i>

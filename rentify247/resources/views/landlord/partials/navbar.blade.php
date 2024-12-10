@@ -12,6 +12,15 @@
              <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
          </div>
      </form>
+     <a class="nav-link" href="message.html">
+         <div class="nav-link  text-white mx-2"><i class="fa-solid fa-envelope"></i></div>
+     </a>
+     <a class="nav-link" href="notification.html">
+         <div class="nav-link  text-white mx-2"><i class="fa-regular fa-bell"></i></div>
+     </a>
+     <a class="nav-link" href="darkmode.html">
+         <div class="nav-link  text-white mx-2 text-2xl"><i class="fa-solid fa-moon"></i></div>
+     </a>
      <!-- Navbar-->
      <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
          <li class="nav-item dropdown">
