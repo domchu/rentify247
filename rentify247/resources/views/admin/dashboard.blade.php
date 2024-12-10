@@ -15,7 +15,7 @@
                     <div class="progress-details flex justify-between items-center mb-1 ">
                         <div class="title">
                             <div class="icon"><i class="fa-solid fa-users"></i>
-                                <div><strong class="">NEW CLIENTS</strong></div>
+                                <div><strong class="">Total Landlords</strong></div>
                             </div>
                         </div>
                         <div class="fs-5 text-info">370</div>
@@ -32,15 +32,15 @@
                 <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
                     <div class="progress-details flex justify-between items-center mb-1 ">
                         <div class="title">
-                            <div class="icon"><i class="fa-solid fa-users"></i>
-                                <div><strong class="">NEW CLIENTS</strong></div>
+                            <div class="icon"><i class="fa-solid fa-user"></i>
+                                <div><strong class="">Total Tenants</strong></div>
                             </div>
                         </div>
-                        <div class="fs-5 text-info">370</div>
+                        <div class="fs-5 text-success">4310</div>
                     </div>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0"
                         aria-valuemax="100" style="height: 5px">
-                        <div class="progress-bar bg-info" style="width: 35%"></div>
+                        <div class="progress-bar bg-success" style="width: 86%"></div>
                     </div>
                     <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
                         Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
@@ -51,14 +51,14 @@
                     <div class="progress-details flex justify-between items-center mb-1 ">
                         <div class="title">
                             <div class="icon"><i class="fa-solid fa-users"></i>
-                                <div><strong class="">NEW CLIENTS</strong></div>
+                                <div><strong class="">Total Cities</strong></div>
                             </div>
                         </div>
-                        <div class="fs-5 text-info">370</div>
+                        <div class="fs-5 text-danger">74</div>
                     </div>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
                         aria-valuemax="100" style="height: 5px">
-                        <div class="progress-bar bg-info" style="width: 35%"></div>
+                        <div class="progress-bar bg-danger" style="width: 65%"></div>
                     </div>
                     <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
                         Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
@@ -69,14 +69,50 @@
                     <div class="progress-details flex justify-between items-center mb-1 ">
                         <div class="title">
                             <div class="icon"><i class="fa-solid fa-users"></i>
-                                <div><strong class="">NEW CLIENTS</strong></div>
+                                <div><strong class="">New Leasing</strong></div>
                             </div>
                         </div>
-                        <div class="fs-5 text-info">370</div>
+                        <div class="fs-5 text-warning">24</div>
                     </div>
                     <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
                         aria-valuemax="100" style="height: 5px">
-                        <div class="progress-bar bg-info" style="width: 35%"></div>
+                        <div class="progress-bar bg-warning" style="width: 35%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">New Clients</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-primary-subtle"> 370</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="55" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-primary-subtle" style="width: 55%"></div>
+                    </div>
+                    <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
+                        Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                    <div class="progress-details flex justify-between items-center mb-1 ">
+                        <div class="title">
+                            <div class="icon"><i class="fa-solid fa-users"></i>
+                                <div><strong class="">Total Revenue</strong></div>
+                            </div>
+                        </div>
+                        <div class="fs-5 text-primary">#1,567 370</div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="80" aria-valuemin="0"
+                        aria-valuemax="100" style="height: 5px">
+                        <div class="progress-bar bg-primary" style="width: 80%"></div>
                     </div>
                     <a class="card-footer flex justify-end items-end mt-2 underline" href="{{ url('admin/team') }}">View
                         Details <span class="ml-2"><i class="fas fa-angle-right"></i></span></a>
