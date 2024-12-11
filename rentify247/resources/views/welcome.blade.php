@@ -44,7 +44,7 @@
            
         </div>
          {{-- SPONSORSHIP / SUPPORT COMPONENT   --}}
-        <div class="min-h-24 bg-sky-950">
+        <div class="min-h-24 bg-sky-500">
             <x-sponsorSupport/>
         </div>
     </body>

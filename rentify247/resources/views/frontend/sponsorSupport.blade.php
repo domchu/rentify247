@@ -1,8 +1,8 @@
 <div class="bg-sky-900 w-full h-screen">
 
-    <div class="text-center my-8 mx-auto h-[32rem] bg-black">
-        <h2 class="">Support Rentify247 utility</h2>
-        <p class="w-[32rem] my-0 mx-auto">Our maintainers devote their time, effort, and heart to ensure Chakra UI keeps getting better. Support us by donating to our collective 🙏</p>
+    <div class="text-center my-8 mx-auto h-[32rem]">
+        <h2 class="text-white">Support Rentify247 utility</h2>
+        <p class="w-[32rem] my-0 mx-auto text-white">Our maintainers devote their time, effort, and heart to ensure Chakra UI keeps getting better. Support us by donating to our collective 🙏</p>
     </div>
 
 
