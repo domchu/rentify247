@@ -6,16 +6,16 @@
     </div>
 
 
-<div class="collective">
+  <div class="collective">
     <div class="bg-white flex">
         <div class="flex">
             <img src="/assets/sponsor.png" alt="Sponsor Image">
             <div class="text">
-                <h3>Open Collective</h3>
+                <h3 class="text-slate-900">Open Collective</h3>
                 <p>Sponsor the Rentify247 maintainers & Storage</p>
             </div>
         </div>
-        <button><a href="/">Sponsor</a></button>
+        <a href="/">Sponsor</a>
     </div>
 </div>
     <div>

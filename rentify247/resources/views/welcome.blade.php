@@ -6,6 +6,7 @@
 
         <title>Laravel</title>
         <title>{{ config('app.name', 'Home | Landlord Solutions Made Simple') }}</title>
+        @vite('resources/css/app.css')
 
 
         <!-- Fonts -->
