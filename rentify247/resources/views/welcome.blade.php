@@ -133,5 +133,7 @@
                 </div>
             </div>
         </div>
+        /* SPONSORSHIP / SUPPORT COMPONENT */
+        <x-sponsorSupport/>
     </body>
 </html>
