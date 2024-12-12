@@ -1,4 +1,4 @@
-<div class="w-full bg-sky-900 lg:w-full h-auto py-4 relative">
+<div class="sm: md:w-full bg-sky-900 lg:w-full h-auto py-4 relative">
     <div class="items-container">
         {{-- sponsor title --}}
         <div class="text-center mx-auto h-[15rem]">
@@ -10,7 +10,7 @@
 
         {{-- collective sponsor --}}
         <div class="collective">
-            <div class="md:w-5/6  bg-white flex justify-between items-center py-[20px] mx-auto rounded-md lg:w-3/6 px-5">
+            <div class="block md:w-5/6  bg-white lg:flex justify-between items-center py-[20px] mx-auto rounded-md lg:w-3/6 px-5">
                 <div class="md:flex justify-between items-center my-2 mx-4">
                     <img src="/assets/Sponsor-icon.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
+                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
+                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
                 </div>
             </div>
         </div>
