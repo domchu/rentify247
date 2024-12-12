@@ -1,4 +1,5 @@
-<div class="w-full bg-sky-900 lg:w-full h-screen py-4 relative">
+<div class="w-full bg-sky-900 lg:w-full h-auto py-4 relative">
+    <div class="items-container">
         {{-- sponsor title --}}
         <div class="text-center mx-auto h-[15rem]">
             <h2 class="text-white pt-8 text-5xl mb-3">Support Rentify247 utility</h2>
@@ -18,7 +19,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a href="/" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
+                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
                 </div>
             </div>
         </div>
@@ -33,13 +34,13 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a href="/" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
+                    <a href="/sponsor" class="py-3 px-6 bg-sky-800 text-white rounded-md hover:bg-sky-700">Sponsor</a>
                 </div>
             </div>
         </div>
         {{-- Organisational sponsor --}}
         <div class="collective mt-12">
-            <h2 class="text-xl text-center font-bold text-[#fff] py-2">ORGANIZATION SPONSORS 🏦</h2>
+            <h2 class="text-xl text-center font-bold text-[#ccc] py-2">ORGANIZATION SPONSORS 🏦</h2>
             <div class="company-images flex justify-center flex-wrap pt-4 col-6">
                 <div class="individual-image p-3">
                     <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
@@ -70,5 +71,39 @@
                 </div>
             </div>
         </div>
-        
-    <div>
+        {{-- Individual sponsor --}}
+        <div class="collective mt-12">
+            <h2 class="text-xl text-center font-bold text-[#ccc] py-2">INDIVIDUAL SPONSORS 🏦</h2>
+            <div class="company-images flex justify-center flex-wrap pt-4 col-6">
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/bttyg.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/slack.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+                <div class="individual-image p-3">
+                    <img src="/assets/98173.jpg" alt="" sizes="" srcset="" class="w-[70px] h-[70px] rounded-full">
+                </div>
+            </div>
+        </div>
+
+</div>
+<div>
