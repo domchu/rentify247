@@ -37,3 +37,8 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
 
 require __DIR__.'/auth.php';
 require __DIR__.'/admin.auth.php';
+
+/*-- PAGES ROUTES */
+Route::get('/sponsor', function () {
+    return view('pages.sponsor');
+});
