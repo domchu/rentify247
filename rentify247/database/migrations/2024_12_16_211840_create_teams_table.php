@@ -29,7 +29,8 @@ return new class extends Migration
             $table->string('qualification')->nullable();
             $table->string('discipline')->nullable();
             $table->integer('experience')->nullable(); // Experience in years
-            $table->timestamps(); // A
+             $table->enum('status', ['active', 'inactive'])->default('active'); // Status field
+            $table->timestamps(); // Adds created_at and updated_at
         });
     }
 

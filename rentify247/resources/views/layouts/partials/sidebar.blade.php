@@ -21,7 +21,8 @@
                             <div class="collapse" id="collapseTeam" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/team/create')}}">Add Team</a>
-                                    <a class="nav-link" href="{{url('admin/team')}}">View Team</a>
+                                    <a class="nav-link" href="{{url('team/create')}}">Add Team</a>
+                                    <a class="nav-link" href="{{url('team')}}">View Team</a>
                                 </nav>
                             </div>
                             {{-- INTERFACE --}}

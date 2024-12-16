@@ -4,17 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Models\team;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\View\View;
 
 class TeamController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
-    public function index()
+    public function index():View|Response
     {
-        //
+        return view('team.index');
     }
 
     /**
@@ -22,9 +24,9 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(team $team):View|Response
     {
-        //
+        return view('team.create');
     }
 
     /**
@@ -44,9 +46,9 @@ class TeamController extends Controller
      * @param  \App\Models\team  $team
      * @return \Illuminate\Http\Response
      */
-    public function show(team $team)
+    public function show(team $team):View|Response
     {
-        //
+        return view('team.show');
     }
 
     /**
@@ -55,9 +57,9 @@ class TeamController extends Controller
      * @param  \App\Models\team  $team
      * @return \Illuminate\Http\Response
      */
-    public function edit(team $team)
+    public function edit(team $team):View|Response
     {
-        //
+        return view('team.edit');
     }
 
     /**
