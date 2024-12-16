@@ -14,7 +14,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="sb-nav-fixed">
+<body class="sb-nav-fixed bg-gray-100">
     @include('layouts.partials.navbar')
 
     <div id="layoutSidenav">
@@ -24,7 +24,7 @@
         </div>
         <div id="layoutSidenav_content">
             <main>
-                <div class="container-fluid px-4">
+                <div class="container-fluid px-4 ">
                     @yield('content')
 
                 </div>
