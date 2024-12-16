@@ -6,27 +6,28 @@
 @section('content')
     <h1 class="mt-4">Dashboard</h1>
    <div class="flex justify-between items-center mt-5">
-     <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active">Your analytics dashboard overview </li>
-    </ol>
-    <div class="flex items-center">
-     <div class="mx-2 ">
-           <a href="/"><i class="fa-solid fa-download rounded-2"></i></a>
-     </div>
-        <div class="mx-2">
-            <a href="/"><i class="fa-solid fa-clock"></i></a>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Your analytics dashboard overview </li>
+        </ol>
+        <div class="flex items-center">
+        <div class="mx-2 ">
+            <a href="/"><i class="fa-solid fa-download rounded-2"></i></a>
         </div>
-       <div class="mx-2">
-         <a href="/"><i class="fa-solid fa-plus"></i></a>
-       </div>
-        <button type="button" class="btn btn-primary"><a href="/" class="text-white">Generate Report</a></button>
-    </div>
+            <div class="mx-2">
+                <a href="/"><i class="fa-solid fa-clock"></i></a>
+            </div>
+        <div class="mx-2">
+            <a href="/"><i class="fa-solid fa-plus"></i></a>
+        </div>
+            <button type="button" class="btn btn-primary"><a href="/" class="text-white">Generate Report</a></button>
+        </div>
    
    </div>
+   <hr>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <div class="card p-2 m-2 bg-light-subtle text-light-emphasis">
+                <div class="card card-body p-2 m-2 bg-light-subtle text-light-emphasis">
                     <div class="progress-details flex justify-between items-center mb-1 ">
                         <div class="title">
                             <div class="icon"><i class="fa-solid fa-users"></i>
@@ -137,6 +138,7 @@
         </div>
 
     </div>
+    <hr>
     {{-- CHARTS --}}
     <div class="row">
         <div class="col-xl-6">
@@ -158,6 +160,7 @@
             </div>
         </div>
     </div>
+    <hr>
     {{-- STATISTIC --}}
     <section class="container">
         <div class="row">
@@ -199,6 +202,7 @@
             </div>
         </div>
     </section>
+    <hr>
     {{-- TABLES --}}
     <div class="card mb-4">
         <div class="card-header">
@@ -688,6 +692,7 @@
             </table>
         </div>
     </div>
+    <hr>
 @endsection
 
 

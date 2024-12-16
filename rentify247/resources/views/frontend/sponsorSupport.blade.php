@@ -11,7 +11,7 @@
         {{-- collective sponsor --}}
         <div class="">
             <div
-                class="block items-center py-[10px] w-fit md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-auto rounded-md lg:w-3/6 px-5">
+                class="block items-center py-[10px] w-fit md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
                     <img src="/assets/Sponsor-icon.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
@@ -21,13 +21,13 @@
                 </div>
                 <div class="my-6 flex justify-center items-center">
                     <a href="/sponsor"
-                        class="py-2 px-24 md:px-6 lg:px-6 md:py-3 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
+                        class="py-2 px-24 md:px-6 lg:px-6 md:py-3 bg-sky-800 text-white rounded-md hover:bg-sky-700 lg:mr-8  hover:text-gray-300">Sponsor</a>
                 </div>
             </div>
         </div>
         {{-- created sponsor --}}
         <div class="mt-10">
-            <div class="block items-center py-[10px] w-fit md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-auto rounded-md lg:w-3/6 px-5">
+            <div class="block items-center py-[10px] md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:my-0 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
                     <img src="/assets/Sponsor-icon.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
@@ -37,14 +37,14 @@
                 </div>
                 <div class="my-6 flex justify-center items-center">
                     <a href="/sponsor"
-                        class="py-2 px-24 md:px-6 lg:px-6 md:py-3 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
+                        class="py-2 px-24 md:px-6 lg:px-6 md:py-3 lg:mr-8 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
                 </div>
             </div>
         </div>
         {{-- Organisational sponsor --}}
-        <div class="container mt-12 mx-auto lg:w-[50%]">
+        <div class="container mt-12 mx-auto px-4 lg:w-[50%]">
             <h5 class="text-center font-bold text-[#ccc] py-2">ORGANIZATION SPONSORS 🏦</h5>
-            <div class="company-images flex justify-center flex-wrap pt-2 col-6">
+            <div class="company-images flex justify-center flex-wrap pt-2">
                 <div class="individual-image p-2">
                     <a href=""> <img src="/assets/slack.jpg" alt="" sizes="" srcset=""
                             class="w-[70px] h-[70px] rounded-full"></a>
@@ -84,7 +84,7 @@
             </div>
         </div>
         {{-- Individual sponsor --}}
-        <div class="container mt-12 mx-auto lg:w-[50%]">
+        <div class="container px-4 mt-12 mx-auto lg:w-[50%]">
             <h2 class="text-center font-bold text-[#ccc] py-2">INDIVIDUAL SPONSORS 🥇</h2>
             <div class="company-images flex justify-center flex-wrap pt-4 col-6">
                 <div class="individual-image p-2">
