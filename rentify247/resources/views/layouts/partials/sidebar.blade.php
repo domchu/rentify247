@@ -6,10 +6,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
-                            {{-- <a class="nav-link" href="{{url('admin/category')}}">
+                            <a class="nav-link" href="{{url('admin/category')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Category
-                            </a> --}}
+                            </a>
                             {{-- Admin Team --}}
                              <div class="sb-sidenav-menu-heading">TEAM MEMBERS</div>
                             {{-- TEAM --}}
@@ -32,7 +32,7 @@
                                 Tenants
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseTenants" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseTenants" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/tenants/create')}}">Add Tenants</a>
                                     <a class="nav-link" href="{{url('admin/tenants')}}">View Tenants</a>
@@ -44,7 +44,7 @@
                                 Landlords
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseLandlords" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseLandlords" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/landlords/create')}}">Add Landlords</a>
                                     <a class="nav-link" href="{{url('admin/landlords')}}">View Landlords</a>
@@ -56,7 +56,7 @@
                                 Locations
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseLocations" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseLocations" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/locations/create')}}">Add Locations</a>
                                     <a class="nav-link" href="{{url('admin/locations')}}">View Locations</a>
@@ -68,7 +68,7 @@
                                 Invoices
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseInvoices" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseInvoices" aria-labelledby="headingFive" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/invoices/create')}}">Add Invoices</a>
                                     <a class="nav-link" href="{{url('admin/invoices')}}">View Invoices</a>
@@ -80,7 +80,7 @@
                                 Lease
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseLease" aria-labelledby="headingFive" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapseLease" aria-labelledby="headingSix" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="{{url('admin/lease/create')}}">Add Lease</a>
                                     <a class="nav-link" href="{{url('admin/lease')}}">View Lease</a>
@@ -105,7 +105,7 @@
                                 Pages
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingSeven" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
                                         Authentication
@@ -122,7 +122,7 @@
                                         Error
                                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                     </a>
-                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <a class="nav-link" href="401.html">401 Page</a>
                                             <a class="nav-link" href="404.html">404 Page</a>
