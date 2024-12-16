@@ -56,3 +56,7 @@ body, html, *, ::before, ::after{
   width: 90%;
   margin: 0px auto;
 }
+.collapse {
+    /* visibility: collapse; */
+    visibility: visible !important;
+}
