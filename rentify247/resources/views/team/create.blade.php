@@ -27,17 +27,17 @@
                 <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <form action="" method="Post">
                         @csrf
-                        <div class="row w-full">
+                        <div class="row col-3">
                             <div>
                                 <x-input-label for="surname" :value="__('Surname')" />
                                 <x-text-input id="surname" class="block mt-1 w-full" type="text" name="surname"
-                                    :value="old('surname')" required autofocus autocomplete="username" />
+                                    :value="old('surname')" required autofocus autocomplete="surname" />
                                 <x-input-error :messages="$errors->get('surname')" class="mt-2" />
                             </div>
                             <div>
                                 <x-input-label for="other_name" :value="__('Other Name')" />
                                 <x-text-input id="other_name" class="block mt-1 w-full" type="text" name="other_name"
-                                    :value="old('other_name')" required autofocus autocomplete="username" />
+                                    :value="old('other_name')" required autofocus autocomplete="other_name" />
                                 <x-input-error :messages="$errors->get('other_name')" class="mt-2" />
                             </div>
                         </div>
@@ -45,15 +45,29 @@
                         <div>
                             <x-input-label for="email" :value="__('Email')" />
                             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email"
-                                :value="old('email')" required autofocus autocomplete="username" />
+                                :value="old('email')" required autofocus autocomplete="email" />
                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
                         </div>
                         {{-- phone --}}
                         <div>
                             <x-input-label for="phone" :value="__('Contact')" />
                             <x-text-input id="phone" class="block mt-1 w-full" type="text" name="phone"
-                                :value="old('phone')" required autofocus autocomplete="username" />
+                                :value="old('phone')" required autofocus autocomplete="phone" />
                             <x-input-error :messages="$errors->get('phone')" class="mt-2" />
+                        </div>
+                        {{-- position --}}
+                        <div>
+                            <x-input-label for="position" :value="__('Position')" />
+                            <x-text-input id="position" class="block mt-1 w-full" type="text" name="position"
+                                :value="old('position')" required autofocus autocomplete="position" />
+                            <x-input-error :messages="$errors->get('position')" class="mt-2" />
+                        </div>
+                        {{-- position --}}
+                        <div>
+                            <x-input-label for="company" :value="__('Company')" />
+                            <x-text-input id="company" class="block mt-1 w-full" type="text" name="company"
+                                :value="old('company')" required autofocus autocomplete="company" />
+                            <x-input-error :messages="$errors->get('company')" class="mt-2" />
                         </div>
 
                         {{-- Register Button --}}
