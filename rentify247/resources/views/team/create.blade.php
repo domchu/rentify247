@@ -18,6 +18,11 @@
         </h2>
     </div>
     <div class="py-12">
+
+        {{-- success mesage --}}
+        <x-success-status class="mb-4" :status="session('message')" />
+        <!-- Session St atus -->
+
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <form action="" method="Post">

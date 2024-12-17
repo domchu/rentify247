@@ -40,7 +40,7 @@ class TeamController extends Controller
     {
         $validatedData = $request->validated();
         $team = Team::create($validatedData);
-         return redirect('/team/create')->with('success', 'Team Member added successfully.');
+         return redirect('/team/create')->with('message', 'Team Member added successfully.');
     }
 
     /**
