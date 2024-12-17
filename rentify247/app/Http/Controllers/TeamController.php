@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\team;
+use Illuminate\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Illuminate\View\View;
+use App\Http\Requests\TeamFormRequest;
 
 class TeamController extends Controller
 {
@@ -35,9 +36,11 @@ class TeamController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TeamFormRequest $request)
     {
-        //
+        $validatedData = $request->validated();
+        $team = Team::create($validatedData);
+         return redirect('/team/create')->with('success', 'Team Member added successfully.');
     }
 
     /**
