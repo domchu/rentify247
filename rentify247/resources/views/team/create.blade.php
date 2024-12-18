@@ -59,11 +59,16 @@
                         </div>
                         {{-- position --}}
                         <div>
-                            <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                            <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0 form-control" aria-label="Large select example">
                                 <option selected>Job Description</option>
+                                <option value="3">Chief Tech Officer(CTO)</option>
                                 <option value="1">Project Manager</option>
                                 <option value="2">Front-End Developer</option>
                                 <option value="3">Back-End Developer</option>
+                                <option value="3">Full Stack Developer(MERN)</option>
+                                <option value="3">Product Designer(UXUI)</option>
+                                <option value="3">Penetration Tester</option>
+                                <option value="3">Full Stack Developer(LAMP)</option>
                             </select>
                         </div>
                         {{-- company --}}
@@ -76,12 +81,13 @@
                         {{-- description --}}
                         <div class="row justify-content-between">
                             <div class="mb-3 col-6">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <label for="exampleFormControlTextarea1" class="form-label">Description</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                 <x-input-error :messages="$errors->get('decription')" class="mt-2" />
                             </div>
                             {{-- photo --}}
                             <div class="mb-3 col-6">
-                                <label for="formFileMultiple" class="form-label ">Photo</label>
+                                <label for="formFileMultiple" class="form-label my-4 py-3 sm:py-0">Photo</label>
                                 <input class="form-control" type="file" id="formFileMultiple" multiple>
                             </div>
                         </div>
