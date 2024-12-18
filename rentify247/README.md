@@ -13,7 +13,7 @@ rentify247 is accessible, powerful, and provides tools/platform required for lar
 
 ## Using  Rentify247
 
-Rentify247 has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Rentify247 has the most extensive and thorough [documentation](https://rentify247.com/docs) and video tutorial on how to use the software
 
 
 
@@ -24,7 +24,7 @@ We would like to extend our thanks to the following sponsors for funding rentify
 ### Premium Partners
 
 - **[cyberlogicnetwork](https://cyberlogicnetwork.com/)**
-- **[Florintech computer collage](https://florintechcomputercollage.com)**
+- **[Florintech computer collage](https://florintechcomputercollege.com)**
 - **[bridgekode](https://bridgekode.com)**
 - **[codegeek9ja](https://codegeek9ja.com)**
 
@@ -36,6 +36,7 @@ Thank you for considering contributing to the rentify247 application!
 ## Code of Conduct
 
 In order to ensure that the rentify247 community is welcoming to all, please review and abide by the [Code of Conduct](https://rentify247.com/docs/contributions#code-of-conduct).
+# dont touch/amend someone code. do always report it on the trello board
 
 ## Security Vulnerabilities
 

@@ -21,7 +21,7 @@
 
             {{-- success mesage --}}
             <x-success-status class="mb-4" :status="session('message')" />
-            <!-- Session St atus -->
+            <!-- Session Status -->
 
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
@@ -62,7 +62,7 @@
                                 :value="old('position')" required autofocus autocomplete="position" />
                             <x-input-error :messages="$errors->get('position')" class="mt-2" />
                         </div>
-                        {{-- position --}}
+                        {{-- company --}}
                         <div>
                             <x-input-label for="company" :value="__('Company')" />
                             <x-text-input id="company" class="block mt-1 w-full" type="text" name="company"
