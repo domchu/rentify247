@@ -16,6 +16,9 @@ module.exports = {
             fontFamily: {
                 sans: ["Outfit", ...defaultTheme.fontFamily.sans],
             },
+            translate: {
+                "-full": "-100%",
+            },
         },
     },
 

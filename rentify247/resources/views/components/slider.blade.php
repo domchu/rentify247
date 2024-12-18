@@ -9,11 +9,11 @@
     @foreach ($slideArray as $slide)
 
 
-    <div id="slide" class="w-full h-full shrink-0 relative transition-opacity duration-500 ease-in-out">
-        <img class="w-full h-full object-cover object-center " src="{{ $slide['image'] }}">
+    <div id="slide" class="w-full h-full shrink-0 relative overflow-hidden transition-opacity duration-500 opacity-0 ease-in">
+        <img class="w-full h-full object-cover object-center overflow-hidden" src="{{ $slide['image'] }}">
     </div>
     <div class=" absolute flex w-full h-full items-center justify-center text-center">
-        <h1 id="content" class="p-8 hidden text-3xl md:text-4xl lg:text-5xl text-blue-500 font-bold bg-grey-200/20 backdrop-blur-sm transition-opacity duration-500 ease-in-out">{{ $slide['description'] }}</h1>
+        <h1 id="content" class="p-4 md:p-8 text-sm md:text-4xl lg:text-5xl text-blue-500 font-bold bg-grey-200/20 backdrop-blur-sm transition-opacity duration-500 ease-in-out opacity-0">{{ $slide['description'] }}</h1>
     </div>
 
 
