@@ -61,16 +61,17 @@
                         {{-- position --}}
                         <div>
                             <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0 form-control"
-                                aria-label="Large select example">
+                                aria-label="Large select example" name="country" id="country">
                                 <option selected>Job Description</option>
-                                <option value="1" name="chief_tech">Chief Tech Officer(CTO)</option>
-                                <option value="2" name="manager">Project Manager</option>
-                                <option value="3" name="front_end">Front-End Developer</option>
-                                <option value="4" name="back_end">Back-End Developer</option>
-                                <option value="5" name="mern">Full Stack Developer(MERN)</option>
-                                <option value="6" name="designer">Product Designer(UXUI)</option>
-                                <option value="7" name="pen_test">Penetration Tester</option>
-                                <Stack value="8" name="lamp">Stack Developer(LAMP)</option>
+                                <option value="Chief Tech Officer" name="chief_tech">Chief Tech Officer(CTO)</option>
+                                <option value="Project Manager" name="manager">Project Manager</option>
+                                <option value="Front-End Developer" name="front_end">Front-End Developer</option>
+                                <option value="Back-End Developer" name="back_end">Back-End Developer</option>
+                                <option value="Full Stack Developer(MERN)" name="mern">Full Stack Developer(MERN)
+                                </option>
+                                <option value="Product Designer(UXUI)" name="designer">Product Designer(UXUI)</option>
+                                <option value="Penetration Tester" name="pen_test">Penetration Tester</option>
+                                <Stack value="Full Stack Developer(LAMP)" name="lamp">Full Stack Developer(LAMP)</option>
                             </select>
                         </div>
                         {{-- company --}}
@@ -94,27 +95,26 @@
                             </div>
                         </div>
                         {{-- state --}}
-                        <div class="row justify-content-between">
-                            <div class="col-6">
-                                <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0"
-                                    aria-label="Large select example">
-                                    <option selected>State of Origin</option>
-                                    <option value="1">Abia</option>
-                                    <option value="2">Adamawa</option>
-                                    <option value="3">Akwa Ibom</option>
-                                </select>
-                            </div>
-                            {{-- nationality --}}
-                            <div class="col-6">
-                                <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country"
-                                    id="country" aria-label="Large select example">
-                                    <option selected>Nationality</option>
-                                    <option value="1">Nigeria</option>
-                                </select>
-                            </div>
+                        <div class="form-floating mb-3">
+                            <x-text-input id="floatingInput" class="form-control block mt-1 w-full my-4 py-3 sm:py-0"
+                                type="text" name="state" :value="old('state')" required autofocus autocomplete="state"
+                                placeholder="state" />
+                            <x-input-label for="floatingInput" :value="__('State of Origin')" />
+                            <x-input-error :messages="$errors->get('state')" class="mt-2" />
+                        </div>
+                        {{-- nationality --}}
+                        <div class="form-floating mb-3">
+                            <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country" id="country"
+                                aria-label="Large select example">
+                                <option selected>Nationality</option>
+                                <option value="United States">United States</option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                            </select>
                         </div>
                         {{-- date of birth --}}
-                        <div class="mt-3">
+                        <div class="my-4">
                             <x-input-label for="date_of_birth" :value="__('Date Of Birth')" />
                             <x-text-input id="date_of_birth" class="block mt-1 w-full my-4 py-3 sm:py-0" type="date"
                                 name="date_of_birth" :value="old('date_of_birth')" pattern="\d{4}-\d{2}-\d{2}" required autofocus
