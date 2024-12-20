@@ -41,10 +41,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('teams');
-    }
+        Schema::table('teams', function (Blueprint $table){
+        $table->string('company')->nullable();
+      });
+      }
 };
-
-
-// {{-- table --}}
-// {{-- surname, other name, email, position, contact, photo, discription, company, state of origin, country, date of birth, qualification, discipline, experience... created_at, updated_at...btns: edit, view/show(print, download,ahare), delete --}}
