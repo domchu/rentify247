@@ -5,18 +5,13 @@
 
 
 @section('content')
-    {{-- <h1 class="mt-4">Category</h1> --}}
     <div class="bg-gray-100">
-
-
-        {{-- <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item active">Dashboard</li>
-        </ol> --}}
         <div>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+            <h2 class="font-semibold text-xl text-[#000] bg-white w-full bottom-4 lg:px-8 md:px-3 sm-2 lg:pt-7 md:pt-5 sm:pt-3">
                 Add Team Member
             </h2>
         </div>
+        
         <div class="py-12">
 
             {{-- success mesage --}}
@@ -24,7 +19,7 @@
 
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <form action="" method="POST">
+                    <form action="{{ url('team/create')}}" method="POST">
                         @csrf
                         {{-- names --}}
                         <div class="form-floating mb-3">
@@ -165,7 +160,7 @@
                         {{-- Register Button --}}
                         <div class="flex items-center justify-center mt-4">
                             <x-primary-button class="ml-4 text-center btn btn-primary" type="submit">
-                                {{ __('Save ') }}
+                                {{ __('Save Member') }}
                             </x-primary-button>
 
                         </div>

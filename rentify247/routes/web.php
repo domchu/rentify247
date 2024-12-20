@@ -46,10 +46,10 @@ Route::get('/sponsor', function () {
 
 // team
 
-Route::resource('admin.team', TeamController::class);
+// Route::resource('admin.team', TeamController::class);
 
 Route::controller(App\Http\Controllers\TeamController::class)->group(function () {
     route::get('/team/create', 'create');
     route::post('/team/create', 'store');  
-    // route::get('/admin/team/create', 'create');
+    
 }); 

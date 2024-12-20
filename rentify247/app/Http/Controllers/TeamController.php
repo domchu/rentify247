@@ -25,7 +25,7 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create(team $team):View|Response
+    public function create():View|Response
     {
         return view('team.create');
     }

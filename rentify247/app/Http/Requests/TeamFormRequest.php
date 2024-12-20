@@ -28,7 +28,7 @@ class TeamFormRequest extends FormRequest
             'other_name' =>'required|string|max:255',
             'email' =>     'required|email|max:255|unique:teams,email', 
             'position' =>  'required|string|max:255',
-            'phone' =>   'required|string|size:15|regex:/^\d+$/', 
+            'phone' =>   'required|string|min:10|max:15|regex:/^[\d+\-\s]+$/', 
             'photo' =>     'nullable|image|mimes:jpg,jpeg,png,gif|max:2048', 
             'description' =>'nullable|string|max:500', 
             'company' => 'required|string',
