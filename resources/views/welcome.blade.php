@@ -26,7 +26,7 @@
 </head>
 
 <body class="antialiased">
-    <div class="relative flex justify-center min-h-24 bg-gray-100 dark:bg-gray-900 sm:pt-0">
+    <div class="relative flex justify-center">
         <x-navbar></x-navbar>
 
         @if (Route::has('login'))
