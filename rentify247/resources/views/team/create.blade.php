@@ -48,15 +48,15 @@
                         {{-- phone --}}
                         <div class="form-floating mb-3">
                             <x-text-input id="floatingInput" class="form-control block mt-1 w-full " type="text"
-                                name="phone" :value="old('phone')" required autofocus autocomplete="phone"
+                                name="contact" :value="old('contact')" required autofocus autocomplete="contact"
                                 placeholder="Enter Phone Number" />
                             <x-input-label for="floatingInput" :value="__('Phone Number')" />
-                            <x-input-error :messages="$errors->get('phone')" class="mt-2" />
+                            <x-input-error :messages="$errors->get('contact')" class="mt-2" />
                         </div>
                         {{-- position --}}
                         <div>
                             <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0 form-control"
-                                aria-label="Large select example" name="country" id="country">
+                                aria-label="Large select example" name="position" id="name">
                                 <option selected>Title</option>
                                 <option value="Chief Tech Officer" name="chief_tech">Chief Tech Officer(CTO)</option>
                                 <option value="Project Manager" name="manager">Project Manager</option>
@@ -89,33 +89,33 @@
                             {{-- photo --}}
                             <div class="mb-3 col-6 mt-3">
                                 <label for="formFileMultiple" class="form-label sm:py-0">Photo</label>
-                                <input class="form-control" type="file" id="formFileMultiple" multiple>
+                                <input class="form-control" name="Photo" type="file" id="formFileMultiple" multiple>
                             </div>
                         </div>
                         {{-- state --}}
                         <div class="form-floating mb-3">
                             <x-text-input id="floatingInput" class="form-control block mt-1 w-full my-4 py-3 sm:py-0"
-                                type="text" name="state" :value="old('state')" required autofocus autocomplete="state"
+                                type="text" name="state_of_origin" :value="old('state_of_origin')" required autofocus autocomplete="state"
                                 placeholder="state" />
                             <x-input-label for="floatingInput" :value="__('State of Origin')" />
-                            <x-input-error :messages="$errors->get('state')" class="mt-2" />
+                            <x-input-error :messages="$errors->get('state_of_origin')" class="mt-2" />
                         </div>
                         {{-- nationality --}}
                         <div class="form-floating mb-3">
                             <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country" id="country"
                                 aria-label="Large select example">
                                 <option selected>Nationality</option>
-                                <option value="United States">United States</option>
-                                <option value="Afghanistan">Afghanistan</option>
-                                <option value="Albania">Albania</option>
-                                <option value="Algeria">Algeria</option>
+                                <option value="United States" name="United States">United States</option>
+                                <option value="Afghanistan" name="Afghanistan">Afghanistan</option>
+                                <option value="Albania" name="Albania">Albania</option>
+                                <option value="Algeria" name="Algeria">Algeria</option>
                             </select>
                         </div>
                         {{-- DUTIES --}}
                         <div class="form-floating mb-3">
-                            <textarea class="form-control block mt-1 w-full" id="exampleFormControlTextarea1" rows="10" name="responsibilities" :value="old('responsibilities')" required autofocus autocomplete="responsibilities" placeholder="Resposibilities"></textarea>
-                            <x-input-label  :value="__('Resposibilities')" />
-                            <x-input-error :messages="$errors->get('responsibilities')" class="mt-2" />
+                            <textarea class="form-control block mt-1 w-full" id="exampleFormControlTextarea1" rows="10" name="description" :value="old('description')" required autofocus autocomplete="description" placeholder="Description"></textarea>
+                            <x-input-label  :value="__('Description')" />
+                            <x-input-error :messages="$errors->get('description')" class="mt-2" />
                         </div>
                         {{-- company --}}
                         <div class="form-floating mb-3">
@@ -129,7 +129,7 @@
                         <div class="form-floating mb-3">
                             <x-text-input id="floatingInput" class="form-control block mt-1 w-full" type="text"
                                 name="qualification" :value="old('qualification')" required autofocus autocomplete="qualification"
-                                placeholder="qualification" />
+                                placeholder="Qualification" />
                             <x-input-label for="floatingInput" :value="__('Qualification')" />
                             <x-input-error :messages="$errors->get('qualification')" class="mt-2" />
                         </div>

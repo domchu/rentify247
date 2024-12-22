@@ -49,7 +49,7 @@ Route::get('/sponsor', function () {
 // Route::resource('admin.team', TeamController::class);
 
 Route::controller(App\Http\Controllers\TeamController::class)->group(function () {
-    route::get('/team/create', 'create');
-    route::post('/team/create', 'store');  
+    route::get('/team/add-team', 'create');
+    route::post('/team/add-team', 'store');  
     
 }); 

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\team;
+use App\Models\Team;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -41,7 +41,7 @@ class TeamController extends Controller
         $validatedData = $request->validated();
         $team = Team::create($validatedData);
         // ddd('ok');
-        return  redirect('/team/create')->with('message', 'Team Member added successfully.');
+        return  redirect('/team/add-team')->with('message', 'Team Member added successfully.');
     }
 
     /**
