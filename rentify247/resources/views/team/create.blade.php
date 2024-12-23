@@ -17,6 +17,9 @@
             {{-- success mesage --}}
             <x-success-status class="mb-4" :status="session('message')" />
 
+            {{-- Error Message --}}
+             <x-validation-errors class="mb-4" :errors="session('message')" />
+
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <form action="{{ url('team/create')}}" method="POST">
