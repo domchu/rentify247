@@ -32,6 +32,7 @@
                             <x-input-label for="floatingInput" :value="__('Surname')" />
                             <x-input-error :messages="$errors->get('surname')" class="mt-2" />
                         </div>
+                        {{-- Other Names --}}
                         <div class=" form-floating mb-3">
                             <x-text-input id="floatingInput" class="form-control block mt-1 w-full px-3" type="text"
                                 name="other_name" :value="old('other_name')" required autofocus autocomplete="other_name"
@@ -103,7 +104,7 @@
                             <x-input-label for="floatingInput" :value="__('State of Origin')" />
                             <x-input-error :messages="$errors->get('state_of_origin')" class="mt-2" />
                         </div>
-                        {{-- nationality --}}
+                        {{-- Nationality --}}
                         <div class="form-floating mb-3">
                             <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country" id="country"
                                 aria-label="Large select example">
@@ -114,7 +115,7 @@
                                 <option value="Algeria" name="Algeria">Algeria</option>
                             </select>
                         </div>
-                        {{-- DUTIES --}}
+                        {{-- Description --}}
                         <div class="form-floating mb-3">
                             <textarea class="form-control block mt-1 w-full" id="exampleFormControlTextarea1" rows="10" name="description" :value="old('description')" required autofocus autocomplete="description" placeholder="Description"></textarea>
                             <x-input-label  :value="__('Description')" />
@@ -153,14 +154,14 @@
                             <x-input-label for="floatingInput" :value="__('Experience')" />
                             <x-input-error :messages="$errors->get('experience')" class="mt-2" />
                         </div>
-                        {{-- check box --}}
+                        {{-- checkBox --}}
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input mb" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Status</label>
                         </div>
 
 
-                        {{-- Register Button --}}
+                        {{-- Submit Button --}}
                         <div class="flex items-center justify-center mt-4">
                             <x-primary-button class="ml-4 text-center btn btn-primary" type="submit">
                                 {{ __('Save Member') }}
