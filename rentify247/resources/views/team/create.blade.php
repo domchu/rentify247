@@ -113,6 +113,11 @@
                                 <option value="Afghanistan" name="Afghanistan">Afghanistan</option>
                                 <option value="Albania" name="Albania">Albania</option>
                                 <option value="Algeria" name="Algeria">Algeria</option>
+                                 <option value="American Samoa">American Samoa</option>
+    <option value="Andorra" name="Andorra">Andorra</option>
+    <option value="Angola" name="Angola">Angola</option>
+    <option value="Anguilla" name="Anguilla">Anguilla</option>
+    <option value="Antartica" name="Antarctica">Antarctica</option>
                             </select>
                         </div>
                         {{-- Description --}}
