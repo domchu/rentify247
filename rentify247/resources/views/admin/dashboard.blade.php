@@ -23,7 +23,7 @@
         </div>
    
    </div>
-   <hr>
+   {{-- <hr> --}}
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
@@ -202,7 +202,7 @@
             </div>
         </div>
     </section>
-    <hr>
+    {{-- <hr> --}}
     {{-- TABLES --}}
     <div class="card mb-4">
         <div class="card-header">

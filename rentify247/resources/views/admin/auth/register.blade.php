@@ -19,12 +19,7 @@
             <x-input-error :messages="$errors->get('email')" class="mt-2 mb-3" />
         </div>
 
-         <!--User Name -->
-        {{-- <div class="mt-4">
-            <x-input-label for="name" :value="__('Username')" />
-            <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="username" />
-            <x-input-error :messages="$errors->get('username')" class="mt-2" />
-        </div> --}}
+        
 
         <!-- Password -->
         <div class="mt-4">

@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +43,13 @@ require __DIR__.'/admin.auth.php';
 Route::get('/sponsor', function () {
     return view('pages.sponsor');
 });
+
+// team
+
+// Route::resource('admin.team', TeamController::class);
+
+Route::controller(App\Http\Controllers\TeamController::class)->group(function () {
+    route::get('/team/add-team', 'create');
+    route::post('/team/add-team', 'store');  
+    
+}); 
