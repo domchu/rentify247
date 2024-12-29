@@ -9,7 +9,7 @@
         </div>
 
         {{-- collective sponsor --}}
-        <div class="">
+        <div class="mb-0">
             <div
                 class="block items-center py-[10px] w-fit md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
@@ -29,7 +29,7 @@
         <div class="mt-10">
             <div class="block items-center py-[10px] md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:my-0 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
-                    <img src="/assets/Sponsor-icon.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
+                    <img src="/assets/Sponsor.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
                         <h3 class="text-slate-900 font-bold text-xl">Software Developer</h3>
                         <p class="my-1 text-gray-500 font-semibold">Sponsor the creator</p>
