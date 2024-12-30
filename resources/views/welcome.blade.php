@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Home | Landlord Solutions Made Simple') }}</title>
     {{-- Customs css --}}
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css', 'resources/css/navbar.css'])
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
     <!-- Styles -->
@@ -83,6 +84,7 @@
     </div>
 
 
+    <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script>
 
 </body>

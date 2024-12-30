@@ -2,7 +2,7 @@
     <div class="top-block-nav">
         <div class="flex space-x-6">
             <div class="top-block-item nav-dropdown"><a id="contact-btn" class="nav-dropdown-btn font-normal"
-                    href="#">CONTACT US <span class="caret-up"></span></a>
+                    href="#">CONTACT US<span class="caret-up"></span></a>
                 <div id="contact-dropdown-content" class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Live Chat</a>
@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="top-block-item"><a href="#">SIGN IN</a></div>
-            <div class="top-block-item"><a href="#">SIGN UP</a></div>
+            <div class="top-block-item hidden sm:block"><a href="#">SIGN UP</a></div>
         </div>
         <button>
             <a href="#">
@@ -20,8 +20,8 @@
         </button>
     </div>
     <nav class="nav-container">
-        <div class="flex-1">
-            <img src="/assets/RENTIFY2477 1.png" alt="nav-logo">
+        <div class="lg:flex-1">
+            <a href="/"><img src="/assets/RENTIFY2477 1.png" alt="nav-logo"></a>
         </div>
 
         {{-- LARGE SCREENS --}}
@@ -112,6 +112,19 @@
                     </ul>
                 </li>
             </ul>
+        </div>
+
+        {{-- SOCIAL ICONS --}}
+        <div class="lg:flex-1 flex justify-end space-x-4 social-media">
+            <a href="/">
+                {{-- <i class="fab fa-facebook"></i> --}}
+                <img src="/assets/social media icons/facebook.png" id="img" alt="fb-icon">
+            </a>
+            <a href="/"><img src="/assets/social media icons/instagram.svg" id="img" alt="ig-icon"></a>
+            <a href="/"><img src="/assets/social media icons/linkedin.svg" id="img" alt="ld-icon"></a>
+            <a href="/"><img src="/assets/social media icons/whatsapp.svg" id="img" alt="wht-icon"></a>
+        </div>
+        </div>
     </nav>
     </div>
     </nav>
