@@ -7,22 +7,23 @@
 @section('content')
     <div class="bg-gray-100">
         <div>
-            <h2 class="font-semibold text-xl text-[#000] bg-white w-full bottom-4 lg:px-8 md:px-3 sm-2 lg:pt-7 md:pt-5 sm:pt-3">
+            <h2
+                class="font-semibold text-xl text-[#000] bg-white w-full bottom-4 lg:px-8 md:px-3 sm-2 lg:pt-7 md:pt-5 sm:pt-3">
                 Add Team Member
             </h2>
         </div>
-        
+
         <div class="py-12">
 
             {{-- success mesage --}}
             <x-success-status class="mb-4" :status="session('message')" />
 
             {{-- Error Message --}}
-             <x-validation-errors class="mb-4" :errors="session('message')" />
+            <x-validation-errors class="mb-4" :errors="session('errors')" />
 
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="px-4 py-4 bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <form action="{{ url('team/create')}}" method="POST">
+                    <form action="{{ url('team/create') }}" method="POST">
                         @csrf
                         {{-- names --}}
                         <div class="form-floating mb-3">
@@ -79,51 +80,55 @@
                                 <option value="Mobile App Developer" name="mobile_app_developer">Mobile App Developer
                                 </option>
                             </select>
+                            <x-input-error :messages="$errors->get('position')" class="mt-2" />
                         </div>
-                       
+
                         {{-- Date of birth --}}
                         <div class="row justify-content-between">
                             <div class="mb-3 col-6 mt-3">
-                            <x-input-label for="date_of_birth" :value="__('Date Of Birth')" />
-                            <x-text-input id="date_of_birth" class="block mt-1 w-full my-4 py-3 sm:py-0" type="date"
-                                name="date_of_birth" :value="old('date_of_birth')" pattern="\d{4}-\d{2}-\d{2}" required autofocus
-                                autocomplete="date_of_birth" />
-                            <x-input-error :messages="$errors->get('date_of_birth')" class="mt-2" />
-                        </div>
+                                <x-input-label for="date_of_birth" :value="__('Date Of Birth')" />
+                                <x-text-input id="date_of_birth" class="block mt-1 w-full my-4 py-3 sm:py-0" type="date"
+                                    name="date_of_birth" :value="old('date_of_birth')" pattern="\d{4}-\d{2}-\d{2}" required autofocus
+                                    autocomplete="date_of_birth" />
+                                <x-input-error :messages="$errors->get('date_of_birth')" class="mt-2" />
+                            </div>
                             {{-- photo --}}
                             <div class="mb-3 col-6 mt-3">
                                 <label for="formFileMultiple" class="form-label sm:py-0">Photo</label>
                                 <input class="form-control" name="Photo" type="file" id="formFileMultiple" multiple>
                             </div>
+                            <x-input-error :messages="$errors->get('photo')" class="mt-2" />
                         </div>
                         {{-- state --}}
                         <div class="form-floating mb-3">
                             <x-text-input id="floatingInput" class="form-control block mt-1 w-full my-4 py-3 sm:py-0"
-                                type="text" name="state_of_origin" :value="old('state_of_origin')" required autofocus autocomplete="state"
-                                placeholder="state" />
+                                type="text" name="state_of_origin" :value="old('state_of_origin')" required autofocus
+                                autocomplete="state" placeholder="state" />
                             <x-input-label for="floatingInput" :value="__('State of Origin')" />
                             <x-input-error :messages="$errors->get('state_of_origin')" class="mt-2" />
                         </div>
                         {{-- Nationality --}}
                         <div class="form-floating mb-3">
-                            <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country" id="country"
-                                aria-label="Large select example">
+                            <select class="form-select form-select-lg mb-3 my-4 py-3 sm:py-0" name="country"
+                                id="country" aria-label="Large select example">
                                 <option selected>Nationality</option>
                                 <option value="United States" name="United States">United States</option>
                                 <option value="Afghanistan" name="Afghanistan">Afghanistan</option>
                                 <option value="Albania" name="Albania">Albania</option>
                                 <option value="Algeria" name="Algeria">Algeria</option>
-                                 <option value="American Samoa">American Samoa</option>
-    <option value="Andorra" name="Andorra">Andorra</option>
-    <option value="Angola" name="Angola">Angola</option>
-    <option value="Anguilla" name="Anguilla">Anguilla</option>
-    <option value="Antartica" name="Antarctica">Antarctica</option>
+                                <option value="American Samoa" name="American Samoa">American Samoa</option>
+                                <option value="Andorra" name="Andorra">Andorra</option>
+                                <option value="Angola" name="Angola">Angola</option>
+                                <option value="Anguilla" name="Anguilla">Anguilla</option>
+                                <option value="Antartica" name="Antarctica">Antarctica</option>
                             </select>
+                            <x-input-error :messages="$errors->get('country')" class="mt-2" />
                         </div>
                         {{-- Description --}}
                         <div class="form-floating mb-3">
-                            <textarea class="form-control block mt-1 w-full" id="exampleFormControlTextarea1" rows="10" name="description" :value="old('description')" required autofocus autocomplete="description" placeholder="Description"></textarea>
-                            <x-input-label  :value="__('Description')" />
+                            <textarea class="form-control block mt-1 w-full" id="exampleFormControlTextarea1" rows="10" name="description"
+                                :value="old('description')" required autofocus autocomplete="description" placeholder="Description"></textarea>
+                            <x-input-label :value="__('Description')" />
                             <x-input-error :messages="$errors->get('description')" class="mt-2" />
                         </div>
                         {{-- company --}}
