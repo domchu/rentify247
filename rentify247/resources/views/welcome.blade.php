@@ -63,6 +63,8 @@
 //     new SlideItem(4, './images/PIC-4.jpg', 'Description 4'),
 //     new SlideItem(5, './images/PIC-5.jpg', 'Description 5'),
 // ]
+
+
 $slideArray = [
     ['id' => 1, 'image' => './images/PIC-1.jpg', 'description' => 'Description 1'],
     ['id' => 2, 'image' => './images/PIC-2.jpg', 'description' => 'Description 2'],
@@ -72,7 +74,7 @@ $slideArray = [
 ];
 
 ?>
-
+         {{-- SLIDER --}}
 
         <div class=" w-full">
             <x-slider :slideArray="$slideArray"/>
@@ -84,7 +86,7 @@ $slideArray = [
             <x-sponsorSupport/>
         </div>
 
-        
+        {{-- FOOTER --}}
         <div>
             <x-footer/>
         </div>
@@ -92,6 +94,5 @@ $slideArray = [
        
 
     <script src="{{ asset('js/slider.js') }}"></script>
-
     </body>
 </html>
