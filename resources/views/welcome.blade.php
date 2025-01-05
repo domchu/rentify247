@@ -74,7 +74,7 @@
     
     ?>
 
-
+    {{-- SLIDER --}}
     <div class=" w-full">
         <x-slider :slideArray="$slideArray" />
     </div>
@@ -83,7 +83,10 @@
     <div class="min-h-24 bg-sky-500">
         <x-sponsorSupport />
     </div>
-
+    {{-- Footer --}}
+    <div>
+        <x-footer />
+    </div>
 
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script>

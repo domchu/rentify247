@@ -27,7 +27,7 @@
         {{-- LARGE SCREENS --}}
         <div class="nav-link-container">
             <div><a class="nav-dropdown-btn" href="#">Home</a></div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">About Us </a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">About Us <span class="caret-up"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Option 1</a>
