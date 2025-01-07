@@ -16,7 +16,7 @@ body, html, *, ::before, ::after{
     list-style-type: none;
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
-    scroll-behavior: smooth;  
+    scroll-behavior: smooth;
 }
 
 
