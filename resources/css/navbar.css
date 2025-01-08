@@ -34,7 +34,7 @@
     @apply w-full h-auto z-[500];
 }
 .top-block-nav {
-    @apply w-[100%] flex justify-between items-center px-5 py-1 text-[var(--natural-clr-1)] bg-[var(--natural-clr-3)];
+    @apply w-[100%] flex justify-between items-center px-5 py-2 text-[var(--natural-clr-1)] bg-[var(--natural-clr-3)];
 }
 .nav-header a:hover {
     color: var(--primary-clr-5);
@@ -44,7 +44,7 @@
 }
 .nav-link-container {
     @apply hidden lg:flex space-x-6 justify-between;
-    flex: 4;
+    flex: 1.5;
 }
 /* Mobile */
 .nav-link-container-mobile {
@@ -138,7 +138,7 @@
     position: absolute;
     top: 33px;
     background-color: var(--natural-clr-8);
-    min-width: 180px;
+    min-width: 250px;
     box-shadow: var(--dark-shadow);
     border-radius: 4px;
     z-index: 30;

@@ -19,7 +19,7 @@
                         <p class="my-1 text-gray-500 font-semibold">Sponsor the Rentify247 maintainers & Storage</p>
                     </div>
                 </div>
-                <div class="my-6 flex justify-center items-center">
+                <div class="my-6 flex justify-center items-center md:mr-[30px]">
                     <a href="/sponsor"
                         class="py-2 px-24 md:px-6 lg:px-6 md:py-3 bg-sky-800 text-white rounded-md hover:bg-sky-700 lg:mr-8  hover:text-gray-300">Sponsor</a>
                 </div>
@@ -29,13 +29,13 @@
         <div class="mt-10">
             <div class="block items-center py-[10px] md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:my-0 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
-                    <img src="/assets/Sponsor-icon.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
+                    <img src="/assets/Sponsor.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
                         <h3 class="text-slate-900 font-bold text-xl">Software Developer</h3>
                         <p class="my-1 text-gray-500 font-semibold">Sponsor the creator</p>
                     </div>
                 </div>
-                <div class="my-6 flex justify-center items-center">
+                <div class="my-6 flex justify-center items-center md:mr-[30px]">
                     <a href="/sponsor"
                         class="py-2 px-24 md:px-6 lg:px-6 md:py-3 lg:mr-8 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
                 </div>

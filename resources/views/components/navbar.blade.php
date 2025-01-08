@@ -6,7 +6,9 @@
                 <div id="contact-dropdown-content" class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Live Chat</a>
-                    <a href="#">Report Abuse</a>
+                    <a href="tel:+234 7034278995">Make Call</a>
+                    <a href="mailto:support@rentify247.com">support@rentify247.com</a>
+                    <a href="mailto:info@rentify247.com">info@rentify247.com</a>
                 </div>
             </div>
             <div class="top-block-item"><a href="#">SIGN IN</a></div>
@@ -19,6 +21,8 @@
             <span id="cart-caret-up" class="caret-up"></span>
         </button>
     </div>
+
+    {{-- MAIN MENU  --}}
     <nav class="nav-container">
         <div class="lg:flex-1">
             <a href="/"><img src="/assets/RENTIFY2477 1.png" alt="nav-logo"></a>
@@ -27,38 +31,56 @@
         {{-- LARGE SCREENS --}}
         <div class="nav-link-container">
             <div><a class="nav-dropdown-btn" href="#">Home</a></div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">About Us <span class="caret-up"></span></a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">About Us <span
+                        class="caret-up"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Our Story / History</a>
+                    <a href="#">Achievements / Awards</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">Mission and Vision</a>
+                    <a href="#">Core Values</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Careers / Join Us</a>
+                    <a href="#">Sustainability Initiatives
+                    </a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Security </a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Properties </a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Renting</a>
+                    <a href="#">Selling</a>
+                    <a href="#">Buying</a>
+                    <a href="#">Apartments for Rent</a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Help Center </a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">News & Insights </a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="#">Knowledge Base</a>
-                    <a href="#">Guru Guides</a>
-                    <a href="#">Blog</a>
+                    <a href="#">The latest news</a>
+                    <a href="#">Housing trends</a>
+                    <a href="#">Real estate news</a>
+                    <a href="#">Celebrity real estate</a>
+                    <a href="#">Unique homes</a>
+                    <a href="#">Corporate blog</a>
+                    {{-- Right dropdown --}}
+                    <a href="#">Selling</a>
+                    <a href="#">Buying</a>
+                    <a href="#">Renting</a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Account</a>
+            <div><a class="nav-dropdown-btn" href="#">Contact</a></div>
+            <div><a class="nav-dropdown-btn" href="#">FAQs</a></div>
+             {{-- <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Account</a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Dashboard</a>
                     <a href="#">My offers</a>
                     <a href="#">Profile</a>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
         {{-- MOBILE SCREENS --}}
@@ -115,9 +137,8 @@
         </div>
 
         {{-- SOCIAL ICONS --}}
-        <div class="lg:flex-1 flex justify-end space-x-4 social-media">
+        <div class="hidden lg:flex-1 lg:flex lg:justify-end lg:space-x-4 social-media">
             <a href="/">
-                {{-- <i class="fab fa-facebook"></i> --}}
                 <img src="/assets/social media icons/facebook.png" id="img" alt="fb-icon">
             </a>
             <a href="/"><img src="/assets/social media icons/instagram.svg" id="img" alt="ig-icon"></a>
