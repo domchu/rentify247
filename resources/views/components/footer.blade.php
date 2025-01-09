@@ -65,7 +65,7 @@
             <div class="p-12">
                 <h1 class="font-semibold text-2xl pb-3">Stay In the Loop</h1>
                 <label>
-                    <span class="peer-invalid:text-red-500 ...">Email</span>
+                    <span class="peer-invalid:text-red-500 ...">Subscribe to NewsLetter</span>
                     <input type="email" class="peer ..." />
                 </label>
                 <ul class="flex justify-start xl:flex-col p-2">
