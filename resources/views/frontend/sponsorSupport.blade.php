@@ -26,7 +26,7 @@
             </div>
         </div>
         {{-- created sponsor --}}
-        <div class="mt-10">
+        <div class="my-10 lg:my-11">
             <div class="block items-center py-[10px] md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:my-0 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
                     <img src="/assets/Sponsor.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
@@ -42,7 +42,7 @@
             </div>
         </div>
         {{-- Organisational sponsor --}}
-        <div class="container mt-12 mx-auto px-4 lg:w-[50%]">
+        <div class="container my-12 lg:my13 mx-auto px-4 lg:w-[50%]">
             <h5 class="text-center font-bold text-[#ccc] py-2">ORGANIZATION SPONSORS 🏦</h5>
             <div class="company-images flex justify-center flex-wrap pt-2">
                 <div class="individual-image p-2">

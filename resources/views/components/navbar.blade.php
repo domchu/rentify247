@@ -6,13 +6,17 @@
                 <div id="contact-dropdown-content" class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Live Chat</a>
-                    <a href="tel:+234 7034278995">Make Call</a>
+                    <a href="tel:+234 7034278995">Booking/ Make Call</a>
                     <a href="mailto:support@rentify247.com">support@rentify247.com</a>
                     <a href="mailto:info@rentify247.com">info@rentify247.com</a>
                 </div>
             </div>
             <div class="top-block-item"><a href="#">SIGN IN</a></div>
             <div class="top-block-item hidden sm:block"><a href="#">SIGN UP</a></div>
+        </div>
+        <div class="email">
+            <a href="mailto:info@rentify247.com" class="mx-3">info@rentify247.com</a>
+            <a href="tel:+234 7034278995">+234 703 4278 995</a>
         </div>
         <button>
             <a href="#">
@@ -32,7 +36,7 @@
         <div class="nav-link-container">
             <div><a class="nav-dropdown-btn" href="#">Home</a></div>
             <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">About Us <span
-                        class="caret-up"></span></a>
+                        class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">Our Story / History</a>
@@ -41,22 +45,24 @@
                     <a href="#">Mission and Vision</a>
                     <a href="#">Core Values</a>
                     <a href="#">Our Team</a>
-                    <a href="#">FAQs</a>
                     <a href="#">Careers / Join Us</a>
                     <a href="#">Sustainability Initiatives
-                    </a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQs</a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Properties </a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Properties <span
+                        class="caret-upup"></span> </a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="#">Renting</a>
-                    <a href="#">Selling</a>
-                    <a href="#">Buying</a>
+                    <a href="#">Lease</a>
+                    <a href="#">Sell</a>
+                    <a href="#">Buy</a>
                     <a href="#">Apartments for Rent</a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">News & Insights </a>
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">News & Insights <span
+                        class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="#">The latest news</a>
@@ -71,16 +77,19 @@
                     <a href="#">Renting</a>
                 </div>
             </div>
-            <div><a class="nav-dropdown-btn" href="#">Contact</a></div>
-            <div><a class="nav-dropdown-btn" href="#">FAQs</a></div>
-             {{-- <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Account</a>
+            {{-- <div><a class="nav-dropdown-btn" href="#">Contact</a></div> --}}
+            {{-- <div><a class="nav-dropdown-btn" href="#">FAQs</a></div> --}}
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Subscriptions <span
+                        class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="#">Dashboard</a>
-                    <a href="#">My offers</a>
-                    <a href="#">Profile</a>
+                    <a href="#">Listings</a>
+                    <a href="#">Managing Rent</a>
+                    <a href="#">land / Building</a>
+                    <a href="#">Commercial</a>
+                    <a href="#">Real Estate</a>
                 </div>
-            </div> --}}
+            </div>
         </div>
 
         {{-- MOBILE SCREENS --}}
