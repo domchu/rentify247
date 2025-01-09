@@ -28,8 +28,9 @@
 </head>
 
 <body class="antialiased">
-    <div class="relative flex justify-center">
-        <x-navbar></x-navbar>
+
+
+    {{-- <div class="relative flex justify-center">
 
         @if (Route::has('login'))
             <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -47,7 +48,7 @@
             </div>
         @endif
 
-    </div>
+    </div> --}}
 
     <?php
     
@@ -74,8 +75,12 @@
     
     ?>
 
+
+    {{-- NAVBAR --}}
+    <x-navbar></x-navbar>
+
     {{-- SLIDER --}}
-    <div class=" w-full">
+    <div class="w-full">
         <x-slider :slideArray="$slideArray" />
     </div>
 
@@ -83,7 +88,7 @@
     <div class="min-h-24 bg-sky-500">
         <x-sponsorSupport />
     </div>
-    {{-- Footer --}}
+    {{-- FOOTER / COPYRIGHT --}}
     <div>
         <x-footer />
     </div>
@@ -92,5 +97,4 @@
     <script src="{{ asset('js/slider.js') }}"></script>
 
 </body>
-
 </html>

@@ -11,11 +11,23 @@
                     <a href="mailto:info@rentify247.com">info@rentify247.com</a>
                 </div>
             </div>
-            <div class="top-block-item"><a href="#">SIGN IN</a></div>
-            <div class="top-block-item hidden sm:block"><a href="#">SIGN UP</a></div>
+            {{-- AUTH --}}
+            @if (Route::has('login'))
+                <div class="hidden sm:block md:flex lg:flex">
+                    @auth
+                        <a href="{{ url('/dashboard') }}"
+                            class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                    @else
+                        <div class="top-block-item mx-3"><a href="{{ route('login') }}">SIGN IN</a></div>
+                        @if (Route::has('register'))
+                            <div class="top-block-item hidden sm:block"><a href="{{ route('register') }}">SIGN UP</a></div>
+                        @endif
+                    @endauth
+                </div>
+            @endif
         </div>
         <div class="email">
-            <a href="mailto:info@rentify247.com" class="mx-3">info@rentify247.com</a>
+            <a href="mailto:info@rentify247.com" class="mx-3 ">info@rentify247.com</a>
             <a href="tel:+234 7034278995">+234 703 4278 995</a>
         </div>
         <button>
@@ -29,7 +41,7 @@
     {{-- MAIN MENU  --}}
     <nav class="nav-container">
         <div class="lg:flex-1">
-            <a href="/"><img src="/assets/RENTIFY2477 1.png" alt="nav-logo"></a>
+            <a href="/"><img src="/assets/RENTIFY2477 1.png" alt="Nav-logo"></a>
         </div>
 
         {{-- LARGE SCREENS --}}
@@ -77,8 +89,7 @@
                     <a href="#">Renting</a>
                 </div>
             </div>
-            {{-- <div><a class="nav-dropdown-btn" href="#">Contact</a></div> --}}
-            {{-- <div><a class="nav-dropdown-btn" href="#">FAQs</a></div> --}}
+           
             <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Subscriptions <span
                         class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">

@@ -64,6 +64,10 @@
 
             <div class="p-12">
                 <h1 class="font-semibold text-2xl pb-3">Stay In the Loop</h1>
+                <label>
+                    <span class="peer-invalid:text-red-500 ...">Email</span>
+                    <input type="email" class="peer ..." />
+                </label>
                 <ul class="flex justify-start xl:flex-col p-2">
                     <li
                         class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 xl:mx-6 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500">
