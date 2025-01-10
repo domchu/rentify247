@@ -142,8 +142,8 @@
 </div>
 
 <div class="w-full p-3 bg-white text-center text-sm text-primaryColor2">
-    <p>&copy; Rentify247 2024. All rights reserved. Designed & Powered by <a href="http://www.bridgekode.com"
-            target="_blank" rel="noopener noreferrer">Bridgekode Software development company</a></p>
+    <p class="text-lg font-medium ">&copy; Rentify247 2024. All rights reserved. Designed & Powered by <a href="https://www.bridgekode.com"
+            target="_blank"  class="text-sky-800 pt-2 text-lg cursor-pointer font-medium">Bridgekode Software development company</a></p>
 </div>
 
 <!-- <div class="border-red-950 border-4 w-full h-60">
