@@ -26,9 +26,13 @@
                 </div>
             @endif
         </div>
-        <div class="email">
-            <a href="mailto:info@rentify247.com" class="mx-3 ">info@rentify247.com</a>
-            <a href="tel:+234 7034278995">+234 703 4278 995</a>
+        <div class="flex">
+            <div class="">
+                <a href="mailto:info@rentify247.com" class="mx-3 tracking-wide">info@rentify247.com</a>
+            </div>
+            <div>
+                <a href="tel:+234 7034278995">+234 703 4278 995</a>
+            </div>
         </div>
         <button>
             <a href="#">
@@ -59,8 +63,8 @@
                     <a href="#">Our Team</a>
                     <a href="#">Careers / Join Us</a>
                     <a href="#">Sustainability Initiatives
-                    <a href="#">Contact</a>
-                    <a href="#">FAQs</a>
+                        <a href="#">Contact</a>
+                        <a href="#">FAQs</a>
                 </div>
             </div>
             <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Properties <span
@@ -89,7 +93,7 @@
                     <a href="#">Renting</a>
                 </div>
             </div>
-           
+
             <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Subscriptions <span
                         class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
@@ -158,12 +162,12 @@
 
         {{-- SOCIAL ICONS --}}
         <div class="hidden lg:flex-1 lg:flex lg:justify-end lg:space-x-4 social-media">
-            <a href="/">
-                <img src="/assets/social media icons/facebook.png" id="img" alt="fb-icon">
-            </a>
-            <a href="/"><img src="/assets/social media icons/instagram.svg" id="img" alt="ig-icon"></a>
+            <a href="/booking"
+                class="py-2 px-24 md:px-6 lg:px-4 md:py-2 lg:mr-8 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Booking</a>
+            {{-- <a href="/"><img src="/assets/social media icons/instagram.svg" id="img" alt="ig-icon"></a>
             <a href="/"><img src="/assets/social media icons/linkedin.svg" id="img" alt="ld-icon"></a>
             <a href="/"><img src="/assets/social media icons/whatsapp.svg" id="img" alt="wht-icon"></a>
+            <a href="/"> <img src="/assets/social media icons/facebook.png" id="img" alt="fb-icon"></a> --}}
         </div>
         </div>
     </nav>
