@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="my-6 flex justify-center items-center md:mr-[30px]">
-                    <a href="/sponsor"
+                    <a href="{{url('/sponsor')}}"
                         class="py-2 px-24 md:px-6 lg:px-6 md:py-3 bg-sky-800 text-white rounded-md hover:bg-sky-700 lg:mr-8  hover:text-gray-300">Sponsor</a>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="my-6 flex justify-center items-center md:mr-[30px]">
-                    <a href="/sponsor"
+                    <a href="{{url('/sponsor')}}"
                         class="py-2 px-24 md:px-6 lg:px-6 md:py-3 lg:mr-8 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Sponsor</a>
                 </div>
             </div>

@@ -44,7 +44,7 @@
 }
 .nav-link-container {
     @apply hidden lg:flex space-x-6 justify-between;
-    flex: 1.5;
+    /* flex: 1.5; */
 }
 /* Mobile */
 .nav-link-container-mobile {

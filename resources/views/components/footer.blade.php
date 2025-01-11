@@ -5,7 +5,9 @@
     <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
     <footer class="relative z-10 grid grid-cols-1 lg:grid-cols-3 mr-0 lg:mr-0 xl:mr-40">
         <div class="flex justify-center lg:justify-normal py-8 px-0 lg:px-20 col-span-1">
-            <img class="w-96 lg:w-64 h-24 lg:h-16" src="{{ asset('assets/logo2.png') }}" alt="logo">
+            <a href="{{ url('/') }}">
+                <img class="w-96 lg:w-64 h-24 lg:h-16" src="{{ asset('assets/logo2.png') }}" alt="logo">
+            </a>
         </div>
 
         <div class="px-10 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-span-2">
@@ -14,24 +16,24 @@
                 <ul>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Home</a>
+                        <a href="{{ url('/') }}">Home</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">About Us</a>
+                        <a href="{{ url('/about') }}">About Us</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Contact Us</a>
+                        <a href="{{ url('/contact') }}">Contact Us</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Why Us (Rentify247)</a>
+                        <a href="{{ url('/why-us') }}">Why Us (Rentify247)</a>
                     </li>
 
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">FAQs</a>
+                        <a href="{{ url('/faq') }}">FAQs</a>
                     </li>
                 </ul>
             </div>
@@ -41,15 +43,15 @@
                 <ul>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Terms & Conditions</a>
+                        <a href="{{ url('/terms-and-conditions') }}">Terms & Conditions</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Privacy Policy</a>
+                        <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="#">Consultation / Booking</a>
+                        <a href="{{ url('/booking') }}">Consultation / Booking</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
@@ -71,7 +73,8 @@
                         <input type="email" class="peer rounded-md text-black py-2 my-3"
                             placeholder="Enter Your Email" />
                     </div>
-                    <button type="submit" class="rounded-md bg-sky-800 py-2 px-4 hover:bg-sky-700 hover:text-gray-300">Submit</button>
+                    <button type="submit"
+                        class="rounded-md bg-sky-800 py-2 px-4 hover:bg-sky-700 hover:text-gray-300">Submit</button>
                 </form>
                 <ul class="flex justify-start items-center p-2 lg:flex lg:justify-start lg:items-baseline">
                     <li
@@ -142,8 +145,9 @@
 </div>
 
 <div class="w-full p-3 bg-white text-center text-sm text-primaryColor2">
-    <p class="text-lg font-medium ">&copy; Rentify247 2024. All rights reserved. Designed & Powered by <a href="https://www.bridgekode.com"
-            target="_blank"  class="text-sky-800 pt-2 text-lg cursor-pointer font-medium">Bridgekode Software development company</a></p>
+    <p class="text-lg font-medium ">&copy; Rentify247 2024. All rights reserved. Designed & Powered by <a
+            href="https://www.bridgekode.com" target="_blank"
+            class="text-sky-800 pt-2 text-lg cursor-pointer font-medium">Bridgekode Software development company</a></p>
 </div>
 
 <!-- <div class="border-red-950 border-4 w-full h-60">
