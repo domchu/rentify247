@@ -1,6 +1,6 @@
-<div class="w-full md:w-full bg-sky-900 lg:w-full h-auto py-10 relative overflow-hidden">
+<div class="w-full md:w-full bg-sky-900 lg:w-full h-auto pt-8 relative overflow-hidden">
     <div class="container pb-4 ">
-        {{-- sponsor title --}}
+        {{-- SPONSOR TITLE --}}
         <div class="text-center mx-auto h-[15rem]">
             <h2 class="text-white text-2xl pt-7 md:text-3xl lg:text-5xl mb-3">Support Rentify247 utility</h2>
             <p class="px-8 w-full my-2 mx-auto text-gray-300 lg:text-[18px] md:w-full lg:w-[50%]">Our Software Developers/Team devote their
@@ -8,7 +8,7 @@
                 donating to our collective 🙏</p>
         </div>
 
-        {{-- collective sponsor --}}
+        {{-- COLLECTIVE SPONSOR --}}
         <div class="">
             <div
                 class="block items-center py-[10px] w-fit md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:mx-auto md:mx-auto">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        {{-- created sponsor --}}
+        {{-- CREATOR SPONSOR --}}
         <div class="my-10 lg:my-11">
             <div class="block items-center py-[10px] md:w-5/6 bg-white md:flex justify-between md:items-center lg:py-[20px] mx-[20px] rounded-md lg:w-3/6 lg:my-0 lg:mx-auto md:mx-auto">
                 <div class="flex md:justify-between items-center my-2 mx-4">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </div>
-        {{-- Organisational sponsor --}}
+        {{-- ORGANISATIONAL SPONSOR --}}
         <div class="container my-12 lg:my13 mx-auto px-4 lg:w-[50%]">
             <h5 class="text-center font-bold text-[#ccc] py-2">ORGANIZATION SPONSORS 🏦</h5>
             <div class="company-images flex justify-center flex-wrap pt-2">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-        {{-- Individual sponsor --}}
+        {{-- INDIVIDUAL SPONSOR --}}
         <div class="container px-4 mt-12 mx-auto lg:w-[50%]">
             <h2 class="text-center font-bold text-[#ccc] py-2">INDIVIDUAL SPONSORS 🥇</h2>
             <div class="company-images flex justify-center flex-wrap pt-4 col-6">

@@ -76,6 +76,7 @@
                     <button type="submit"
                         class="rounded-md bg-sky-800 py-2 px-4 hover:bg-sky-700 hover:text-gray-300">Submit</button>
                 </form>
+                {{-- SOCIAL MEDIA HANDLES --}}
                 <ul class="flex justify-start items-center p-2 lg:flex lg:justify-start lg:items-baseline">
                     <li
                         class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 lg:mx-1 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">

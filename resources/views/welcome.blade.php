@@ -78,23 +78,28 @@
 
     {{-- NAVBAR --}}
     <x-navbar></x-navbar>
-
+    {{-- BANNER/SEARCH --}}
+    {{-- Output some availabe rent and listing --}}
+    {{-- SUBSCRIPTION/PACKAGES --}}
     {{-- SLIDER --}}
     <div class="w-full">
         <x-slider :slideArray="$slideArray" />
     </div>
+    {{-- REVIEWS --}}
 
     {{-- SPONSORSHIP / SUPPORT COMPONENT   --}}
     <div class="min-h-24 bg-sky-500">
         <x-sponsorSupport />
     </div>
+    {{-- FAQ --}}
     {{-- FOOTER / COPYRIGHT --}}
     <div>
         <x-footer />
     </div>
-
+    {{-- JAVASCRIPT FILES/LINKS --}}
     <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script>
 
 </body>
+
 </html>
