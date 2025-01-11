@@ -1,5 +1,5 @@
 <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
-
+{{-- FOOTER --}}
 <div
     class="relative w-full h-84 mt-10 bg-[url('../../public/images/PIC-2.jpg')] bg-cover bg-center bg-no-repeat text-white p-10">
     <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
@@ -143,15 +143,11 @@
         </div>
     </footer>
 </div>
-
+{{-- COPYRIGHT --}}
 <div class="w-full p-3 bg-white text-center text-sm text-primaryColor2">
     <p class="text-lg font-medium ">&copy; Rentify247 2024. All rights reserved. Designed & Powered by <a
             href="https://www.bridgekode.com" target="_blank"
             class="text-sky-800 pt-2 text-lg cursor-pointer font-medium">Bridgekode Software development company</a></p>
 </div>
 
-<!-- <div class="border-red-950 border-4 w-full h-60">
-    <footer>
-        <img src="../../public/images/PIC-2.jpg" alt="logo">
-    </footer>
-</div> -->
+
