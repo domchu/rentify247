@@ -151,4 +151,11 @@
             class="text-sky-800 pt-2 text-lg cursor-pointer font-medium">Bridgekode Software development company</a></p>
 </div>
 
+<script src="{{ asset('js/navbar.js') }}"></script>
+    <script src="{{ asset('js/slider.js') }}"></script>
+
+</body>
+
+</html>
+
 

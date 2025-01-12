@@ -32,7 +32,7 @@
                     <img src="/assets/Sponsor.png" alt="Sponsor Image" class="w-[50px] h-[50px] rounded-md">
                     <div class="ml-6">
                         <h3 class="text-slate-900 font-bold text-xl">Software Developer</h3>
-                        <p class="my-1 text-gray-500 font-semibold">Sponsor the creator</p>
+                        <p class="my-1 text-gray-500 font-semibold">Support the creators</p>
                     </div>
                 </div>
                 <div class="my-6 flex justify-center items-center md:mr-[30px]">

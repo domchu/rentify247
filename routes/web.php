@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -41,4 +42,7 @@ require __DIR__.'/admin.auth.php';
 /*-- PAGES ROUTES */
 Route::get('/sponsor', function () {
     return view('pages.sponsor');
+});
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy');
 });
