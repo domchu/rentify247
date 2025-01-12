@@ -64,3 +64,6 @@ Route::get('/about-us', function () {
 Route::get('/why-us', function () {
     return view('pages.why-us');
 });
+Route::get('/listings', function () {
+    return view('pages.listings');
+});
