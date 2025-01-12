@@ -46,3 +46,21 @@ Route::get('/sponsor', function () {
 Route::get('/privacy-policy', function () {
     return view('pages.privacy');
 });
+Route::get('/booking', function () {
+    return view('pages.booking');
+});
+Route::get('/terms-and-conditions', function () {
+    return view('pages.terms');
+});
+Route::get('/contact-us', function () {
+    return view('pages.contact');
+});
+Route::get('/faq', function () {
+    return view('pages.faq');
+});
+Route::get('/about-us', function () {
+    return view('pages.about');
+});
+Route::get('/why-us', function () {
+    return view('pages.why-us');
+});

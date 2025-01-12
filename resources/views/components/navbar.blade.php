@@ -21,7 +21,7 @@
     <div class="top-block-nav">
         <div class="flex space-x-6">
             <div class="top-block-item nav-dropdown"><a id="contact-btn" class="nav-dropdown-btn font-normal"
-                    href="{{ url('/contact') }}">CONTACT US<span class="caret-up"></span></a>
+                    href="{{ url('/contact-us') }}">CONTACT US<span class="caret-up"></span></a>
                 <div id="contact-dropdown-content" class="nav-dropdown-content">
                     <span class="caret"></span>
                     <a href="{{ url('/livechat') }}">Live Chat</a>
@@ -93,7 +93,7 @@
         {{-- LARGE SCREENS --}}
         <div class="nav-link-container">
             <div><a class="nav-dropdown-btn" href="{{ url('/') }}">Home</a></div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="{{ url('/about') }}">About Us <span
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="{{ url('/about-us') }}">About Us <span
                         class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
@@ -102,14 +102,14 @@
                     <a href="{{ url('/testimonial') }}">Testimonials</a>
                     <a href="{{ url('/mission-and-vision') }}">Mission and Vision</a>
                     <a href="{{ url('/core-values') }}">Core Values</a>
-                    <a href="{{ url('/contact') }}">Contact</a>
+                    <a href="{{ url('/contact-us') }}">Contact</a>
                     <a href="{{ url('/faq') }}">FAQs</a>
                     <a href="{{ url('/') }}">Our Team</a>
                     <a href="{{ url('/') }}">Careers / Join Us</a>
                     <a href="{{ url('/') }}">Sustainability Initiatives
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Properties <span
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="{{ url('/') }}">Properties <span
                         class="caret-upup"></span> </a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
@@ -119,11 +119,11 @@
                     <a href="{{ url('/apartment-for-rent') }}">Apartments for Rent</a>
                 </div>
             </div>
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">News & Insights <span
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="{{ url('/') }}">News & Insights <span
                         class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
-                    <a href="{{ url('/new') }}">The latest news</a>
+                    <a href="{{ url('/latest-new') }}">The latest news</a>
                     <a href="{{ url('/housing-trents') }}">Housing trends</a>
                     <a href="{{ url('/real-estate-news') }}">Real estate news</a>
                     <a href="{{ url('/celebrity-real-estate') }}">Celebrity real estate</a>
@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="#">Subscriptions <span
+            <div class="nav-dropdown"><a class="nav-dropdown-btn" href="{{ url('/latest-new') }}">Subscriptions <span
                         class="caret-upup"></span></a>
                 <div class="nav-dropdown-content">
                     <span class="caret"></span>
@@ -202,14 +202,10 @@
             </ul>
         </div>
 
-        {{-- SOCIAL ICONS --}}
+        {{-- BOOKING --}}
         <div class="hidden lg:flex-1 lg:flex lg:justify-end lg:space-x-4 social-media">
             <a href="{{ url('/booking') }}"
                 class="py-2 px-24 md:px-6 lg:px-4 md:py-2 lg:mr-8 bg-sky-800 text-white rounded-md hover:bg-sky-700 hover:text-gray-300">Booking</a>
-            {{-- <a href="/"><img src="/assets/social media icons/instagram.svg" id="img" alt="ig-icon"></a>
-            <a href="/"><img src="/assets/social media icons/linkedin.svg" id="img" alt="ld-icon"></a>
-            <a href="/"><img src="/assets/social media icons/whatsapp.svg" id="img" alt="wht-icon"></a>
-            <a href="/"> <img src="/assets/social media icons/facebook.png" id="img" alt="fb-icon"></a> --}}
         </div>
         </div>
     </nav>

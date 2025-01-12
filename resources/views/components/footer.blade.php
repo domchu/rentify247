@@ -20,11 +20,11 @@
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="{{ url('/about') }}">About Us</a>
+                        <a href="{{ url('/about-us') }}">About Us</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
-                        <a href="{{ url('/contact') }}">Contact Us</a>
+                        <a href="{{ url('/contact-us') }}">Contact Us</a>
                     </li>
                     <li
                         class="pt-2 font-light text-lg transition-all hover:text-xl ease-in-out duration-150 cursor-pointer">
@@ -152,10 +152,8 @@
 </div>
 
 <script src="{{ asset('js/navbar.js') }}"></script>
-    <script src="{{ asset('js/slider.js') }}"></script>
+<script src="{{ asset('js/slider.js') }}"></script>
 
 </body>
 
 </html>
-
-
