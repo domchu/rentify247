@@ -1,13 +1,15 @@
-
-
 {{-- NAVBAR --}}
-    <div>
+<div>
 
-        <x-navbar></x-navbar>
-    </div>
-    <h1>About Us</h1>
+    <x-navbar></x-navbar>
+</div>
 
-    {{-- FOOTER / COPYRIGHT --}}
-    <div>
-        <x-footer />
-    </div>
+{{-- ABOUT US --}}
+<div>
+    <x-about-us />
+</div>
+
+{{-- FOOTER / COPYRIGHT --}}
+<div>
+    <x-footer />
+</div>

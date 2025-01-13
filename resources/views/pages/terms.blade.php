@@ -4,7 +4,10 @@
         <x-navbar></x-navbar>
     </div>
 
-<h1>Terms and Conditions</h1>
+{{-- TERMS AND CONDITIONS --}}
+<div>
+    <x-terms-and-conditions/>
+</div>
 
 {{-- FOOTER / COPYRIGHT --}}
     <div>

@@ -4,7 +4,11 @@
         <x-navbar></x-navbar>
     </div>
 
-<h1>Contact Us</h1>
+
+{{-- CONTACT US --}}
+<div>
+    <x-contact-us/>
+</div>
 
 {{-- FOOTER / COPYRIGHT --}}
     <div>

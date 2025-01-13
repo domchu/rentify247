@@ -5,7 +5,11 @@
 
         <x-navbar></x-navbar>
     </div>
-    <h1>Listings</h1>
+   
+    {{--LISTINGS --}}
+   <div>
+     <x-listings/>
+   </div>
 
     {{-- FOOTER / COPYRIGHT --}}
     <div>

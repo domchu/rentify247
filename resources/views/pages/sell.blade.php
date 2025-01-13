@@ -1,9 +1,12 @@
 {{-- NAVBAR --}}
 <div>
-
     <x-navbar></x-navbar>
 </div>
-<h1>Sell</h1>
+
+{{-- SELL --}}
+<div>
+    <x-sell />
+</div>
 
 {{-- FOOTER / COPYRIGHT --}}
 <div>
