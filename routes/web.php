@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -41,4 +42,40 @@ require __DIR__.'/admin.auth.php';
 /*-- PAGES ROUTES */
 Route::get('/sponsor', function () {
     return view('pages.sponsor');
+});
+Route::get('/privacy-policy', function () {
+    return view('pages.privacy');
+});
+Route::get('/booking', function () {
+    return view('pages.booking');
+});
+Route::get('/terms-and-conditions', function () {
+    return view('pages.terms');
+});
+Route::get('/contact-us', function () {
+    return view('pages.contact');
+});
+Route::get('/faq', function () {
+    return view('pages.faq');
+});
+Route::get('/about-us', function () {
+    return view('pages.about');
+});
+Route::get('/why-us', function () {
+    return view('pages.why-us');
+});
+Route::get('/listings', function () {
+    return view('pages.listings');
+});
+Route::get('/lease', function () {
+    return view('pages.lease');
+});
+Route::get('/sell', function () {
+    return view('pages.sell');
+});
+Route::get('/buy', function () {
+    return view('pages.buy');
+});
+Route::get('/apartment-for-rent', function () {
+    return view('pages.apartment-for-rent');
 });

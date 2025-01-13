@@ -1,6 +1,5 @@
 "use strict";
 
-console.log("hello");
 const allSlides = document.querySelectorAll("#slide");
 const allContent = document.querySelectorAll("#content");
 const nextBtn = document.querySelector("#next");

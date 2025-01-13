@@ -4,11 +4,10 @@
     <x-navbar></x-navbar>
 </div>
 
-{{-- ABOUT US --}}
+{{-- WHY US --}}
 <div>
-    <x-about-us />
+    <x-why-us />
 </div>
-
 {{-- FOOTER / COPYRIGHT --}}
 <div>
     <x-footer />

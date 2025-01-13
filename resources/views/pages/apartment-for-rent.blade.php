@@ -4,11 +4,10 @@
     <x-navbar></x-navbar>
 </div>
 
-{{-- ABOUT US --}}
+{{-- APARTMENT FOR RENT --}}
 <div>
-    <x-about-us />
+    <x-apartment-for-rent />
 </div>
-
 {{-- FOOTER / COPYRIGHT --}}
 <div>
     <x-footer />

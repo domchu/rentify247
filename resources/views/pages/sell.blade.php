@@ -1,12 +1,11 @@
 {{-- NAVBAR --}}
 <div>
-
     <x-navbar></x-navbar>
 </div>
 
-{{-- ABOUT US --}}
+{{-- SELL --}}
 <div>
-    <x-about-us />
+    <x-sell />
 </div>
 
 {{-- FOOTER / COPYRIGHT --}}

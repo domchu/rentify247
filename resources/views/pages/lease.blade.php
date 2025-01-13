@@ -3,11 +3,7 @@
 
     <x-navbar></x-navbar>
 </div>
-
-{{-- ABOUT US --}}
-<div>
-    <x-about-us />
-</div>
+<h1>Lease</h1>
 
 {{-- FOOTER / COPYRIGHT --}}
 <div>
