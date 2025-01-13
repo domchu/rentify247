@@ -67,3 +67,15 @@ Route::get('/why-us', function () {
 Route::get('/listings', function () {
     return view('pages.listings');
 });
+Route::get('/lease', function () {
+    return view('pages.lease');
+});
+Route::get('/sell', function () {
+    return view('pages.sell');
+});
+Route::get('/buy', function () {
+    return view('pages.buy');
+});
+Route::get('/apartment-for-rent', function () {
+    return view('pages.apartment-for-rent');
+});
