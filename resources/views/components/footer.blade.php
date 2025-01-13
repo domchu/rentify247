@@ -11,7 +11,7 @@
         </div>
 
         <div class="px-10 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-span-2">
-            <div class="p-12">
+            <div class="p-10">
                 <h1 class="font-semibold text-2xl pb-3">Quick Links</h1>
                 <ul>
                     <li
@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <div class="p-12">
+            <div class="p-10">
                 <h1 class="font-semibold text-2xl pb-3">Company</h1>
                 <ul>
                     <li
@@ -65,7 +65,7 @@
                 </ul>
             </div>
             {{-- SUBSCRIPTION --}}
-            <div class="p-12">
+            <div class="p-10">
                 <h1 class="font-semibold text-2xl pb-3">Stay In the Loop</h1>
                 <form action="{{ url('/') }}" method="POST">
                     <div>
@@ -81,6 +81,8 @@
                     <li
                         class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 lg:mx-1 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">
                         <a href="#">
+                            {{-- <img src="/assets/social-media-icons/facebook.png" alt="FACEBOOK ICON" class="social-media"> --}}
+                            
                             <svg class="absolute z-10 top-2 right-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24" fill="currentColor" class="size-6">
                                 <path fill-rule="evenodd"
