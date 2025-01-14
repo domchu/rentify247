@@ -35,13 +35,15 @@
                                 <label for="" id="email" class="text-bold">Enter Your Email<span
                                         class="text-[#d22929] font-bold">*</span></label><br>
                                 <input type="email" name="email" id="email" placeholder="example@gmail.com "
-                                    required autofocus="text-blue" class="rounded text-black w-full lg:w-11/12 md:mt-2 lg:mt-2">
+                                    required autofocus="text-blue"
+                                    class="rounded text-black w-full lg:w-11/12 md:mt-2 lg:mt-2">
                             </div>
                             <div class="py-4">
                                 <label for="" id="email" class="text-bold">Your Number<span
                                         class="text-[#d22929] font-bold">*</span></label><br>
                                 <input type="email" name="email" id="email" placeholder="(+234 1234567890) "
-                                    required autofocus="text-blue" class="rounded text-black w-full lg:w-11/12 md:mt-2 lg:mt-2">
+                                    required autofocus="text-blue"
+                                    class="rounded text-black w-full lg:w-11/12 md:mt-2 lg:mt-2">
                             </div>
                             <div class="py-4">
                                 <label for="" id="email" class="text-bold">Your Message<span
@@ -55,7 +57,7 @@
                 </div>
             </div>
             {{-- ADDRESS SECTION --}}
-            <div class="address-section">
+            <div class="md:flex">
                 <div class="visit-us">
 
                 </div>
@@ -63,7 +65,10 @@
 
                 </div>
                 <div class="message-us">
-
+                    {{-- <div>
+                        <img src="/assets/social-media-icons/facebook.png" alt="FACEBOOK ICON"
+                            class="social-media h-7 w-7 rounded">
+                    </div> --}}
                 </div>
             </div>
             {{-- MAP --}}
@@ -71,8 +76,30 @@
 
             </div>
             {{-- FOLLOW US --}}
-            <div class="social-media-icons">
-
+            <div class="flex flex-col justify-center items-center md:flex md:justify-center md:items-center md:flex-col">
+                <h2 class="text-sky-800 font-semibold text-3xl py-3 md:text-3xl lg:text-4xl">FOLLOW US</h2>
+                <div class="flex space-x-4 py-2">
+                    <div>
+                        <a href="https://www.facebook.com/rentify247" target="_blank" rel="noopener noreferrer"><img
+                                src="/assets/social-media-icons/facebook.png" alt="FACEBOOK ICON"
+                                class="h-7 w-7 rounded cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/rentify247" target="_blank" rel="noopener noreferrer"><img
+                                src="/assets/social-media-icons/instagram.png" alt="INSTAGRAM ICON"
+                                class="h-7 w-7 rounded cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/rentify247" target="_blank" rel="noopener noreferrer"><img
+                                src="/assets/social-media-icons/linkedin.png" alt="LINKEDIN ICON"
+                                class="h-7 w-7 rounded cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.whatsapp.com/rentify247" target="_blank" rel="noopener noreferrer"><img
+                                src="/assets/social-media-icons/whatsapp.png" alt="WHATSAPP ICON"
+                                class="h-7 w-7 rounded cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
