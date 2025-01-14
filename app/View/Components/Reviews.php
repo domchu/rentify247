@@ -4,17 +4,18 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Slider extends Component
+class Reviews extends Component
 {
-    public $slideArray;
+
+    public $reviewsArray;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($slideArray)
+    public function __construct($reviewsArray)
     {
-        $this->slideArray = $slideArray;
+        $this->reviewsArray = $reviewsArray;
     }
 
     /**
@@ -24,6 +25,6 @@ class Slider extends Component
      */
     public function render()
     {
-        return view('components.slider');
+        return view('components.reviews');
     }
 }
