@@ -153,6 +153,7 @@
 
 <script src="{{ asset('js/navbar.js') }}"></script>
 <script src="{{ asset('js/slider.js') }}"></script>
+<script src="{{ asset('js/reviews.js') }}"></script>
 
 </body>
 
