@@ -5,9 +5,10 @@
                 <h2 class="text-white font-semibold text-3xl py-4 md:text-3xl lg:text-5xl">Contact Us</h2>
                 <p
                     class="text-white text-xl px-7 pb-4 text-wrap md:w-4/5 md:mx-auto md:my-0 lg:w-3/6 lg:mx-auto lg:my-0">
-                    <span class="text-[#dc2d2d] font-bold text-xl px-1">Need an expert?</span> You are more than welcome
-                    to
-                    leave your contact information and we will be in touch shortly.
+                    <span class="text-[#e9492d] font-bold text-xl px-1"> We’re here to help!</span>
+                    Whether you have questions, need support, or want to learn more about our services, feel free to
+                    reach out. Connect with us through any of the options below, and our team will respond promptly to
+                    assist you.
                 </p>
 
             </div>
@@ -15,9 +16,10 @@
                 class="relative w-full h-84 mt-10 bg-[url('../../public/images/real-estate.webp')] bg-cover bg-center bg-no-repeat text-white ">
                 <div class="lg:flex lg:w-5/6 lg:mx-auto lg:my-0">
                     <div class="p-5 lg:w-3/6 my-8">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt perspiciatis mollitia
-                            doloribus repellat adipisci dolorum voluptatum dicta velit, quae officiis fugit, possimus
-                            inventore repellendus quaerat dolores architecto nihil aut?</p>
+                        <span class="text-[#e9492d] font-bold text-xl px-1">Need an expert?</span> You are more than
+                        welcome
+                        to
+                        leave your contact information and we will be in touch shortly.
 
                     </div>
                     {{-- CONTACT FORM --}}
@@ -61,7 +63,8 @@
                 </div>
             </div>
             {{-- ADDRESS SECTION --}}
-            <div class="flex flex-wrap md:flex md:flex-wrap lg:flex-nowrap md:justify-center md:w-4/6 lg:w-5/6 md:mx-auto md:my-20">
+            <div
+                class="flex flex-wrap md:flex md:flex-wrap lg:flex-nowrap md:justify-center md:w-4/6 lg:w-5/6 md:mx-auto md:my-20">
                 <div class="py-6 border-2">
                     <div class="flex justify-center items-center">
                         <li
@@ -79,13 +82,15 @@
                     <div>
                         <h4 class="text-center text-sky-800 font-semibold text-xl py-3 md:py-2 md:text-2xl lg:text-2xl">
                             Visit Us</h4>
-                       <div class="px-8">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
-                        <li class="py-1">
-                        <a href="tel:(+234) 70 34278995">Vintage Park Estate, Lekki Phase 1, Lagos State. Nigeria</a>
+                        <div class="px-8">
+                            <p>We’d love to see you in person! Visit us at our office and let’s discuss how we can
+                                assist with your rental needs.</p>
+                            <li class="pt-5">
+                                <a href="tel:(+234) 70 34278995">Vintage Park Estate, Lekki Phase 1, Lagos State.
+                                    Nigeria</a>
 
-                        </li>
-                       </div>
+                            </li>
+                        </div>
                     </div>
                 </div>
                 <div class="py-6 border-2">
@@ -106,17 +111,18 @@
                     <div class="flex flex-col">
                         <h4 class="text-center text-sky-800 font-semibold text-xl py-1 md:py-2 md:text-2xl lg:text-2xl">
                             Call Us</h4>
-                       <div class="px-8">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
-                        <li class="py-1">
-                            <a href="tel:(+234) 70 34278995">(+234) 703 4278 995</a>
+                        <div class="px-8">
+                            <p>Have questions or need assistance? Our support team is ready to help. Give us a call, and
+                                we'll guide you through every step.</p>
+                            <li class="pt-5">
+                                <a href="tel:(+234) 70 34278995">(+234) 703 4278 995</a>
 
-                        </li>
-                        <li>
+                            </li>
+                            <li>
 
-                            <a href="tel:(+234) 70 34278995">(+234) 903 9028 399</a>
-                        </li>
-                       </div>
+                                <a href="tel:(+234) 70 34278995">(+234) 903 9028 399</a>
+                            </li>
+                        </div>
                     </div>
                 </div>
                 <div class="py-6 border-2">
@@ -141,8 +147,9 @@
                             class="text-center text-sky-800 font-semibold text-xl py-1 md:py-2 md:text-2xl lg:text-2xl">
                             Message Us</h4>
                         <div class="px-8">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
-                            <li class="py-1">
+                            <p>Prefer to write to us? Drop us a message using the contact form ablove or email below,
+                                and we’ll get back to you as soon as possible.</p>
+                            <li class="pt-5">
                                 <a href="mailto:support@rentify247">support@rentify247</a>
                             </li>
                             <li>
@@ -158,8 +165,11 @@
                 </div>
             </div>
             {{-- MAP --}}
-            <div class="map">
-
+            <div class="">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.43163092981!2d3.1778915748054266!3d6.4668777935248025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b86b4809d6ce9%3A0x36bb35aed68449d9!2s53%20Aka%20Rd%2C%20Ojo%2C%20Okokomaiko%20102101%2C%20Lagos!5e0!3m2!1sen!2sng!4v1736947861931!5m2!1sen!2sng"
+                    width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             {{-- FOLLOW US --}}
             <div
