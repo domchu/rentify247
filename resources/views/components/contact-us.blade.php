@@ -1,8 +1,8 @@
 <section>
     <div>
         <div class="my-12">
-            <div class="contact-title max-w-full  bg-sky-800 text-center py-12">
-                <h2 class="text-white font-semibold text-3xl py-3 md:text-3xl lg:text-4xl">Contact Us</h2>
+            <div class="contact-title max-w-full  bg-sky-800 text-center py-16 md:py-36 lg:py-36">
+                <h2 class="text-white font-semibold text-3xl py-4 md:text-3xl lg:text-5xl">Contact Us</h2>
                 <p
                     class="text-white text-xl px-7 pb-4 text-wrap md:w-4/5 md:mx-auto md:my-0 lg:w-3/6 lg:mx-auto lg:my-0">
                     <span class="text-[#dc2d2d] font-bold text-xl px-1">Need an expert?</span> You are more than welcome
@@ -61,8 +61,8 @@
                 </div>
             </div>
             {{-- ADDRESS SECTION --}}
-            <div class="flex flex-wrap md:flex md:justify-center md:w-4/5 md:mx-auto md:my-20">
-                <div class="visit-us">
+            <div class="flex flex-wrap md:flex md:flex-wrap lg:flex-nowrap md:justify-center md:w-4/6 lg:w-5/6 md:mx-auto md:my-20">
+                <div class="py-6 border-2">
                     <div class="flex justify-center items-center">
                         <li
                             class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 lg:mx-1 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">
@@ -77,12 +77,18 @@
                         </li>
                     </div>
                     <div>
-                        <h4 class="text-center text-sky-800 font-semibold text-xl py-3 md:text-2xl lg:text-2xl">Visit Us</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
+                        <h4 class="text-center text-sky-800 font-semibold text-xl py-3 md:py-2 md:text-2xl lg:text-2xl">
+                            Visit Us</h4>
+                       <div class="px-8">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
+                        <li class="py-1">
                         <a href="tel:(+234) 70 34278995">Vintage Park Estate, Lekki Phase 1, Lagos State. Nigeria</a>
+
+                        </li>
+                       </div>
                     </div>
                 </div>
-                <div class="call-us">
+                <div class="py-6 border-2">
                     <div class="flex justify-center items-center">
                         <li
                             class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 lg:mx-1 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">
@@ -98,13 +104,22 @@
 
                     </div>
                     <div class="flex flex-col">
-                        <h4 class="text-center text-sky-800 font-semibold text-xl py-3 md:text-2xl lg:text-2xl">Call Us</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
-                        <a href="tel:(+234) 70 34278995">(+234) 703 4278 995</a>
-                        <a href="tel:(+234) 70 34278995">(+234) 903 9028 399</a>
+                        <h4 class="text-center text-sky-800 font-semibold text-xl py-1 md:py-2 md:text-2xl lg:text-2xl">
+                            Call Us</h4>
+                       <div class="px-8">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
+                        <li class="py-1">
+                            <a href="tel:(+234) 70 34278995">(+234) 703 4278 995</a>
+
+                        </li>
+                        <li>
+
+                            <a href="tel:(+234) 70 34278995">(+234) 903 9028 399</a>
+                        </li>
+                       </div>
                     </div>
                 </div>
-                <div class="message-us">
+                <div class="py-6 border-2">
                     <div class="flex justify-center items-center">
                         <li
                             class="w-3 mt-0 bg-gray-700 bg-opacity-20 p-5 mx-2 lg:mx-4 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">
@@ -122,11 +137,23 @@
 
                     </div>
                     <div class="flex flex-col">
-                        <h4 class="text-center text-sky-800 font-semibold text-xl py-3 md:text-2xl lg:text-2xl">Message Us</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
-                        <a href="mailto:support@rentify247">support@rentify247</a>
-                        <a href="mailto:info@rentify247">info@rentify247</a>
-                        <a href="mailto:customercare@rentify247">customercare@rentify247</a>
+                        <h4
+                            class="text-center text-sky-800 font-semibold text-xl py-1 md:py-2 md:text-2xl lg:text-2xl">
+                            Message Us</h4>
+                        <div class="px-8">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, provident!</p>
+                            <li class="py-1">
+                                <a href="mailto:support@rentify247">support@rentify247</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@rentify247">info@rentify247</a>
+
+                            </li>
+                            <li>
+                                <a href="mailto:customercare@rentify247">customercare@rentify247</a>
+
+                            </li>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +163,7 @@
             </div>
             {{-- FOLLOW US --}}
             <div
-                class="flex flex-col justify-center items-center md:flex md:justify-center md:items-center md:flex-col">
+                class="flex flex-col justify-center items-center pt-8 md:flex md:justify-center md:items-center md:flex-col">
                 <h2 class="text-sky-800 font-semibold text-3xl py-3 md:text-3xl lg:text-4xl">FOLLOW US</h2>
                 <div class="flex space-x-4 py-2">
                     <div>
