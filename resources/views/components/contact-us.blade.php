@@ -25,6 +25,7 @@
                     {{-- CONTACT FORM --}}
                     <div class="form-section bg-sky-800 py-3 px-3 w-full my-8 mx-auto  rounded lg:w-3/6">
                         <form action="" method="POST">
+                            @csrf
                             <div>
                                 <label for="" id="name" class="text-bold lg:mb-4">First Name<span
                                         class="text-[#d22929] font-bold ">*</span></label> <br>
@@ -58,6 +59,8 @@
                                     class="rounded text-black w-full lg:w-11/12 md:mt-2 lg:mt-2" required></textarea>
 
                             </div>
+                            <button type="submit"
+                        class="rounded-md bg-sky-800 border-2 py-2 px-4 hover:bg-sky-700 hover:text-gray-300">Submit</button>
                         </form>
                     </div>
                 </div>
