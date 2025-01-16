@@ -1,7 +1,7 @@
 <div class="w-full lg:h-[70vh] md:h-[50vh] h-[40vh] flex justify-center items-center relative">
 
     <button id="prev"
-        class="absolute md:left-4 lg:left-10 left-0 top-1/2 transform -translate-y-1/2 w-8 md:w-14 lg:w-14 text-5xl h-8 md:h-14  lg:h-14 rounded-full text-center bg-white flex justify-center items-center pb-3 z-50 shadow-lg shadow-gray-700 border border-solid border-white">&lsaquo;</button>
+        class="absolute md:left-4 lg:left-10 left-0 top-1/2 transform -translate-y-1/2 w-8 md:w-14 lg:w-14 text-5xl h-8 md:h-14  lg:h-14 rounded-full text-center bg-sky-800 text-white hover:bg-sky-700 hover:text-gray-300 flex justify-center items-center pb-3 z-50 shadow-lg shadow-gray-700 border border-solid border-sky-800">&lsaquo;</button>
 
     <div class="lg:w-[90%] flex lg:h-[90%] md:h-[90%]  overflow-hidden relative w-[90%]">
 
@@ -22,5 +22,5 @@
 
     </div>
     <button id="next"
-        class="absolute md:right-4 lg:right-10 right-0 top-1/2 transform -translate-y-1/2 w-8 lg:w-14  md:w-14 text-5xl h-8 md:h-14  lg:h-14 rounded-full text-center bg-white flex justify-center items-center pb-3 z-50 shadow-lg shadow-gray-700 border border-solid border-white">&rsaquo;</button>
+        class="absolute md:right-4 lg:right-10 right-0 top-1/2 transform -translate-y-1/2 w-8 lg:w-14  md:w-14 text-5xl h-8 md:h-14  lg:h-14 rounded-full text-center bg-sky-800 text-white hover:bg-sky-700 hover:text-gray-300 flex justify-center items-center pb-3 z-50 shadow-lg shadow-gray-700 border border-solid border-sky-800">&rsaquo;</button>
 </div>

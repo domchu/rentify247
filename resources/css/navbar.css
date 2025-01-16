@@ -34,13 +34,13 @@
     @apply w-full h-auto z-[500];
 }
 .top-block-nav {
-    @apply w-[100%] flex justify-between items-center px-20 py-2 text-[var(--natural-clr-1)] bg-[var(--natural-clr-3)];
+    @apply w-[100%] flex justify-between items-center px-8 py-2 text-[var(--natural-clr-1)] bg-[var(--natural-clr-3)];
 }
 .nav-header a:hover {
     color: var(--primary-clr-5);
 }
 .nav-container {
-    @apply flex justify-between w-full relative items-center px-20 py-3 bg-[var(--clr-white)] text-[var(--natural-clr-8)];
+    @apply flex justify-between w-full relative items-center px-8 py-3 bg-[var(--clr-white)] text-[var(--natural-clr-8)];
 }
 .nav-link-container {
     @apply hidden lg:flex space-x-6 justify-between;
