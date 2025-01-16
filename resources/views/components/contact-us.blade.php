@@ -16,12 +16,15 @@
         </div>
         {{-- FORM SECTION --}}
         <div>
-            <div class="lg:flex lg:w-5/6 lg:mx-auto lg:my-32">
+            <div class="p-3 lg:flex lg:w-5/6 lg:mx-auto lg:my-32">
                 <div class="p-5 lg:w-3/6">
                     <p> <span class="text-[#e9492d] font-bold text-xl px-1">Need an expert?</span> You are more than
                         welcome to leave your contact information and we will be in touch shortly.
                     </p>
-                    <img src="./assets/contact.jpg" alt="">
+                    <div class="flex justify-center text-center items-center">
+                    <img src="./assets/contact.jpg" alt="Someone Pointing The Form">
+
+                    </div>
                 </div>
                 {{-- CONTACT FORM --}}
                 <div class="form-section bg-sky-800 py-3 px-3 w-full my-8 mx-auto rounded lg:w-3/6">
@@ -29,33 +32,33 @@
                         @csrf
                         <div>
                             <label for="" id="name" class="text-bold text-white lg:mb-4">First
-                                Name<span class="text-[#d22929] font-bold ">*</span></label> <br>
+                                Name<span class="text-[#e92d2d] font-bold ml-1 ">*</span></label> <br>
                             <input type="text" name="name" id="name" placeholder="First Name" required
                                 autofocus="text-blue" class="rounded text-black w-full lg:w-full md:mt-2 lg:mt-2">
                         </div>
                         <div class="py-4">
-                            <label for="" id="first_name" class="text-bold text-white">Last Name<span
-                                    class="text-[#d22929] font-bold">*</span></label><br>
+                            <label for="" id="first_name" class="text-bold ml-1 text-white">Last Name<span
+                                    class="text-[#e9492d] font-bold ml-1">*</span></label><br>
                             <input type="text" name="last_name" id="name" placeholder="Last Name" required
                                 autofocus="text-blue" class="rounded text-black w-full lg:w-full md:mt-2 lg:mt-2">
                         </div>
                         <div class="py-4">
                             <label for="" id="email" class="text-bold text-white">Enter Your Email<span
-                                    class="text-[#d22929] font-bold">*</span></label><br>
+                                    class="text-[#e9492d] font-bold ml-1">*</span></label><br>
                             <input type="email" name="email" id="email" placeholder="example@gmail.com "
                                 required autofocus="text-blue"
                                 class="rounded text-black w-full lg:w-full md:mt-2 lg:mt-2">
                         </div>
                         <div class="py-4">
-                            <label for="" id="email" class="text-bold text-white">Your Number<span
-                                    class="text-[#d22929] font-bold">*</span></label><br>
+                            <label for="" id="email" class="text-bold ml-1 text-white">Your Number<span
+                                    class="text-[#e9492d] font-bold ml-1">*</span></label><br>
                             <input type="email" name="email" id="email" placeholder="(+234 1234567890) "
                                 required autofocus="text-blue"
                                 class="rounded text-black w-full lg:w-full md:mt-2 lg:mt-2">
                         </div>
                         <div class="py-4">
                             <label for="" id="email" class="text-bold text-white">Your Message<span
-                                    class="text-[#d22929] font-bold">*</span></label><br>
+                                    class="text-[#e9492d] font-bold ml-1">*</span></label><br>
                             <textarea name="message" id="message" cols="35" rows="10" placeholder="Write a Message"
                                 class="rounded text-black w-full lg:w-full md:mt-2 lg:mt-2" required></textarea>
 

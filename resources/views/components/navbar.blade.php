@@ -33,7 +33,7 @@
             </div>
             {{-- AUTH --}}
             @if (Route::has('login'))
-                <div class="hidden sm:block md:flex lg:flex">
+                <div class="hidden sm:flex md:flex lg:flex">
                     @auth
                         <a href="{{ url('/dashboard') }}"
                             class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
