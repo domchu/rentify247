@@ -50,7 +50,7 @@
 //     public $description;
 
 //     public function __construct($id, $image, $description){
-//         $this->id = $id;
+//         $this->id = $id;occupied
 //         $this->image = $image;
 //         $this->description = $description;
 //     }
@@ -71,13 +71,37 @@ $slideArray = [
     ['id' => 5, 'image' => './images/PIC-5.jpg', 'description' => 'Description 5'],
 ];
 
+// $faqs = [
+//     'General'=> [
+//     ['id' => 1,'question' => 'How often will my property be occupied?', 'answer' => 'Depends on the popularity of your dungeon'],
+//     ['id' => 2,'question' => 'What happens if something is damaged by a guest?', 'answer' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, officia.'],
+//     ['id' => 3,'question' => 'How often will my property be ?', 'answer' => 'Depends on the popularity of your dungeon'],
+//     ['id' => 4,'question' => 'How often will my property be occupied?', 'answer' => 'Depends on the popularity of your dungeon'],
+//      ],
+
+//     'Pricing'=> [
+//     ['id' => 1,'question' => 'How often will my property be occupied?', 'answer' => 'Depends on the popularity of your dungeon'],
+//     ['id' => 2,'question' => 'How often will my property be occupied?', 'answer' => 'Depends on the popularity of your dungeon'],
+//     ['id' => 3,'question' => 'How often will my property be occupied?', 'answer' => 'Depends on the popularity of your dungeon'],
+//     ]
+// ]
 ?>
 
+<?php
+use App\Http\Controllers\FaqSection;
+
+$controller = new FaqSection();
+$data = $controller->index();
+?>
 
         <div class=" w-full">
             <x-slider :slideArray="$slideArray"/>
         </div>
 
+        {{-- Faq Section --}}
+        <div>
+            <x-faq-section :faqs="$data['faqs']"/>
+        </div>
 
          {{-- SPONSORSHIP / SUPPORT COMPONENT   --}}
         <div class="min-h-24 bg-sky-500">
