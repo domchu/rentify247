@@ -1,7 +1,5 @@
 const faqContainer = document.querySelector(".faq-container");
 const faqLinks = document.querySelectorAll(".faq-link");
-const largeScreenLinks = document.querySelectorAll(".sm\\:block .faq-link");
-const dropDownLinks = document.querySelectorAll("#dropdown-menu .faqlink");
 const searchInput = document.getElementById("search-input");
 const heading = document.querySelector(".heading");
 const dropdownMenu = document.getElementById("dropdown-menu");
@@ -114,9 +112,6 @@ const displayFaqs = function (category) {
 
     currentCategory = category;
 };
-
-// console.log(dropDownLinks);
-// console.log(largeScreenLinks);
 // console.log(faqLinks);
 
 faqLinks.forEach(function (link) {
@@ -152,6 +147,7 @@ searchInput.addEventListener("input", function (e) {
         filteredFaqs = faqs[currentCategory].filter((faq) =>
             faq.question.toLowerCase().includes(searchValue)
         );
+
         console.log("Search by Category");
     } else {
         // Search across all categories
@@ -175,8 +171,11 @@ searchInput.addEventListener("input", function (e) {
         faqContainer.innerHTML = `<p class="error-message">Search result not found</p>`;
     }
 
-    if (searchValue.length >= 1) {
-        // faqLinks.forEach((link) => link.classList.remove("font-bold"));
+    if (searchValue.length < 1) {
+        const initialCategory = faqLinks[0];
+        initialCategory.classList.add("font-bold");
+        displayFaqs(initialCategory.getAttribute("data-category"));
+    } else {
         heading.textContent = "Frequently Asked Questions";
     }
 

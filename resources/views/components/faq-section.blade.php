@@ -1,4 +1,16 @@
 <!-- Always remember that you are absolutely unique. Just like everyone else. - Margaret Mead -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ config('app.name', 'Home | Landlord Solutions Made Simple') }}</title>
+
+    {{-- CUSTOM CSS --}}
+    @vite('resources/css/faqSection.css')
+</head>
+<body>
 <div class="mt-16 sm:mt-32 md:mt-12 lg:mt-3">
 
 <search class="w-4/5 sm:w-1/2 lg:w-1/3 mx-auto my-0 ">
@@ -8,22 +20,23 @@
     <section class="w-full flex flex-col sm:flex-row">
         <nav class="bg-gradient-to-br from-[--primary-clr-2] to-[--primary-clr-1] w-full sm:w-1/5 sm:pl-2 lg:pl-14 pr-5 py-5 pb-5 sm:pb-28">
             <h1 class="text-green-300 uppercase font-bold text-xl text-center sm:text-start sm:text-lg">faq</h1>
-            <!-- Category list for smaller screens -->
+
+            {{-- CATEGORY LIST FOR MOBILE SCREENS--}}
             <ul>
-            <div id="selected-cont" class="flex justify-between sm:hidden text-[--natural-clr-1] h-12 rounded-lg px-6 py-3 mt-4 mx-4 bg-[--style-clr-2]">
-                <span class="selected"></span>
-            <img id="dropdown-btn" src="../../assets/icon-arrow.svg" class="w-4 h-5 pt-2 invert brightness-0">
-            </div>
+                <div id="selected-cont" class="flex justify-between sm:hidden text-[--natural-clr-1] h-12 rounded-lg px-6 py-3 mt-4 mx-4 bg-[--style-clr-2]">
+                     <span class="selected"></span>
+                        <img id="dropdown-btn" src="../../assets/icon-arrow.svg" class="w-4 h-5 pt-2 invert brightness-0">
+                 </div>
 
                 <div id="dropdown-menu" class="hidden sm:hidden pt-2 pl-4">
                     @foreach($faqs as $category => $questions)
-                <li class="py-1 pl-2 sm:pl-0"><a href="#" class="faq-link text-white text-base hover:text-gray-200" data-category="{{$category}}">{{$category}}</a></li>
+                    <li class="py-1 pl-2 sm:pl-0"><a href="#" class="faq-link text-white text-base hover:text-gray-200" data-category="{{$category}}">{{$category}}</a></li>
                 @endforeach
 
                 </div>
-</ul>
-                <!-- Category list for larger screens -->
-                 <ul>
+            </ul>
+                                {{-- CATEGORY LIST FOR LARGE SCREENS--}}
+            <ul>
                 <div class="hidden sm:block border-3 border-pink-500">
                 @foreach($faqs as $category => $questions)
                 <li class="py-1 pl-2 sm:pl-0"><a href="#" class="faq-link text-white text-base hover:text-gray-200" data-category="{{$category}}">{{$category}}</a></li>
@@ -39,9 +52,6 @@
             
             </div>
            
-           <!-- <img src="../../assets/icon-caret-right.svg" class="invert" alt="caret-image"> -->
-
-           
         </main>
     </section>
 </div>
@@ -52,3 +62,6 @@
 
 <script src="{{ asset('js/faqsection.js')}}" defer></script>
 
+
+</body>
+</html>
