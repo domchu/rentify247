@@ -7,6 +7,7 @@
         <x-navbar></x-navbar>
     </div>
     {{-- BANNER/SEARCH --}}
+    <x-banner/>
     {{-- Output some availabe rent and listing --}}
     {{-- SUBSCRIPTION/PACKAGES --}}
     {{-- SLIDER --}}
