@@ -7,6 +7,7 @@
     <title>{{ config('app.name', 'Home | Landlord Solutions Made Simple') }}</title>
     {{-- CUSTOM CSS --}}
     @vite(['resources/css/app.css', 'resources/css/navbar.css'])
+     @vite('resources/css/faqSection.css')
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

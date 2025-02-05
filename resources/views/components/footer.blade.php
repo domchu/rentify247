@@ -1,7 +1,7 @@
 <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
 {{-- FOOTER --}}
 <div
-    class="relative w-full h-84 mt-10 bg-[url('../../public/images/PIC-2.jpg')] bg-cover bg-center bg-no-repeat text-white p-10">
+    class="relative w-full h-84 mt-10 bg-[url('../../public/images/BannerHouse.png')] bg-cover bg-center bg-no-repeat text-white p-10">
     <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
     <footer class="relative z-10 grid grid-cols-1 lg:grid-cols-3 mr-0 lg:mr-0 xl:mr-40">
         <div class="flex justify-center lg:justify-normal py-8 px-0 lg:px-20 col-span-1">
@@ -154,6 +154,7 @@
 <script src="{{ asset('js/navbar.js') }}"></script>
 <script src="{{ asset('js/slider.js') }}"></script>
 <script src="{{ asset('js/reviews.js') }}"></script>
+<script src="{{ asset('js/faqsection.js')}}" defer></script>
 
 </body>
 
