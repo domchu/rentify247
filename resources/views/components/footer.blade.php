@@ -80,9 +80,7 @@
                 <ul class="flex justify-start items-center p-2 lg:flex lg:justify-start lg:items-baseline">
                     <li
                         class="w-3 bg-gray-700 bg-opacity-20 p-5 mx-0 lg:mx-1 relative z-0 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-500 rounded-md">
-                        <a href="#">
-                            {{-- <img src="/assets/social-media-icons/facebook.png" alt="FACEBOOK ICON" class="social-media"> --}}
-
+                        <a href="#">                           
                             <svg class="absolute z-10 top-2 right-2 w-5 h-5" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24" fill="currentColor" class="size-6">
                                 <path fill-rule="evenodd"

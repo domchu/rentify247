@@ -24,6 +24,7 @@ html,
 }
 
 :root {
+    --custom-bg:#075985;
     --bg-clr-blue: #00246b;
     --bg-clr-light-blue: #8ab6f9;
     --bg-clr-grey: #cadcfc;

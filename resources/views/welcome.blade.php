@@ -7,6 +7,7 @@
         <x-navbar></x-navbar>
     </div>
     {{-- BANNER/SEARCH --}}
+    <x-banner/>
     {{-- Output some availabe rent and listing --}}
     {{-- SUBSCRIPTION/PACKAGES --}}
     {{-- SLIDER --}}
@@ -24,6 +25,17 @@
         <x-sponsorSupport />
     </div>
     {{-- FAQ --}}
+
+    <?php
+    use App\Http\Controllers\FaqSection;
+    $controller = new FaqSection();
+    $data = $controller->index();
+
+    ?>
+
+    <div>
+        <x-Faq-Section :faqs="$data['faqs']"/>
+    </div>
     {{-- FOOTER / COPYRIGHT --}}
     <div>
         <x-footer />

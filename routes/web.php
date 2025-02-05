@@ -89,11 +89,11 @@ Route::get('/apartment-for-rent', function () {
 Route::get('/', function () {
 
       $slides = [
-        ['id' => 1, 'image' => './images/PIC-1.jpg', 'description' => 'Description 1'],
-        ['id' => 2, 'image' => './images/PIC-2.jpg', 'description' => 'Description 2'],
-        ['id' => 3, 'image' => './images/PIC-3.jpg', 'description' => 'Description 3'],
-        ['id' => 4, 'image' => './images/PIC-4.jpg', 'description' => 'Description 4'],
-        ['id' => 5, 'image' => './images/PIC-5.jpg', 'description' => 'Description 5'],
+        ['id' => 1, 'image' => './images/Lagos_skyline.jpg', 'description' => 'Description 1'],
+        ['id' => 2, 'image' => './images/real-estate.webp', 'description' => 'Description 2'],
+        ['id' => 3, 'image' => './images/BannerHouse.png', 'description' => 'Description 3'],
+        ['id' => 4, 'image' => './images/Lagos_skyline.jpg', 'description' => 'Description 4'],
+        ['id' => 5, 'image' => './images/real-estate.webp', 'description' => 'Description 5'],
     ];
 
    $reviews = [
