@@ -18,7 +18,6 @@
             <x-reviews :reviewsArray="$reviews"/>
         </div>
 
-
     {{-- SPONSORSHIP / SUPPORT COMPONENT   --}}
     <div class="min-h-24 bg-sky-500">
         <x-sponsorSupport />
