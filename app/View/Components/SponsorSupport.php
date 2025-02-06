@@ -12,6 +12,6 @@ class sponsorSupport extends Component
      */
     public function render(): View
     {
-        return view('frontend.sponsorSupport');
+        return view('components.sponsor-support');
     }
 }
