@@ -1,13 +1,15 @@
 
-    <div className='max-w-full mx-auto px-4 lg:px-8 py-8 font-sans text-sm bg-white text-gray-800'>
-      <h1 className='text-xl font-bold mb-6 text-center'>TERMS OF USE</h1>
-      <div className='absolute top-4 left-4'>
-        <div  className='cursor-pointer'>
+    <div class='max-w-full w-4/5 mx-auto my-4 px-6 lg:px-8 py-8 font-sans text-sm bg-slate-100 text-gray-800 rounded-lg'>
+      <!-- <div class='absolute top-4 left-4'>
+        <div  class='cursor-pointer'>
           
-        </div>
+          </div>
+        </div> -->
+      <div class="mb-6">
+      <h1 class='text-4xl lg:text-6xl text-sky-800 font-bold text-center'>TERMS OF USE</h1>
+      <p class="text-center text-gray-400 text-sm">Effective Date: 05/11/24</p>
       </div>
-      <div className='space-y-4 font-medium'>
-        <p>Effective Date: 05/11/24</p>
+        <div class='space-y-4 font-medium'>
 
         <p>
           Welcome to Naija Prime (&quot;Naija Prime Ltd,&quot; &quot;we,&quot;
@@ -18,7 +20,7 @@
         </p>
 
         <div>
-          <h2 className='font-bold'>1. Agreement</h2>
+          <h2 class='font-bold text-sky-800'>1. Agreement</h2>
           <p>
             By creating an account or using the Platform in any manner, you
             acknowledge that you have read, understood, and agree to be bound by
@@ -27,9 +29,9 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>2. Eligibility</h2>
+          <h2 class='font-bold text-sky-800'>2. Eligibility</h2>
           <p>To use the Platform, you must:</p>
-          <ul className='list-disc pl-8 mt-2'>
+          <ul class='list-disc pl-8 mt-2'>
             <li>
               Be at least 13 years of age (or older, depending on your
               country&apos;s legal age of consent for data processing).
@@ -46,12 +48,12 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>3. Account Creation</h2>
+          <h2 class='font-bold text-sky-800'>3. Account Creation</h2>
           <p>
             To access certain features of the Platform, you may be required to
             create an account. You agree to:
           </p>
-          <ul className='list-disc pl-8 mt-2'>
+          <ul class='list-disc pl-8 mt-2'>
             <li>
               Provide accurate and complete information during registration.
             </li>
@@ -68,13 +70,13 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>4. User Content</h2>
+          <h2 class='font-bold text-sky-800'>4. User Content</h2>
           <p>
             You may upload, post, or share content (such as text, images,
             videos, and links) on the Platform (&quot;User Content&quot;). By
             posting User Content, you:
           </p>
-          <ul className='list-disc pl-8 mt-2'>
+          <ul class='list-disc pl-8 mt-2'>
             <li>
               Grant us a non-exclusive, royalty-free, transferable,
               sublicensable, worldwide license to use, display, modify,
@@ -90,19 +92,19 @@
               harassing, or infringes upon the rights of others.
             </li>
           </ul>
-          <p className='mt-2'>
+          <p class='mt-2'>
             We reserve the right to remove any User Content that violates these
             Terms or is deemed inappropriate at our sole discretion.
           </p>
         </div>
 
         <div>
-          <h2 className='font-bold'>5. Prohibited Conduct</h2>
+          <h2 class='font-bold text-sky-800'>5. Prohibited Conduct</h2>
           <p>
             You agree not to engage in the following activities while using the
             Platform:
           </p>
-          <ul className='list-disc pl-8 mt-2'>
+          <ul class='list-disc pl-8 mt-2'>
             <li>
               Violate any applicable laws, regulations, or third-party rights.
             </li>
@@ -131,7 +133,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>6. Intellectual Property</h2>
+          <h2 class='font-bold text-sky-800'>6. Intellectual Property</h2>
           <p>
             All content provided by the Platform, including but not limited to
             text, graphics, logos, trademarks, and software, is owned by us or
@@ -143,7 +145,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>7. Privacy</h2>
+          <h2 class='font-bold text-sky-800'>7. Privacy</h2>
           <p>
             We respect your privacy. Our Privacy Policy [insert link to Privacy
             Policy] outlines how we collect, use, and protect your personal
@@ -152,7 +154,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>8. Links and Content</h2>
+          <h2 class='font-bold text-sky-800'>8. Links and Content</h2>
           <p>
             The Platform may contain links to third-party websites or content
             not controlled by us. We are not responsible for the content,
@@ -163,7 +165,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>9. Service Termination</h2>
+          <h2 class='font-bold text-sky-800'>9. Service Termination</h2>
           <p>
             These Terms are effective until terminated by either you or us. You
             may terminate your account at any time by following the account
@@ -174,7 +176,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>10. License Termination</h2>
+          <h2 class='font-bold text-sky-800'>10. License Termination</h2>
           <p>
             Upon termination, all rights and licenses granted to you under these
             Terms will immediately end, and you must cease all use of the
@@ -183,7 +185,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>11. Disclaimer of Warranties</h2>
+          <h2 class='font-bold text-sky-800'>11. Disclaimer of Warranties</h2>
           <p>
             The Platform is provided &quot;as is&quot; and &quot;as
             available,&quot; without warranty of any kind, either express or
@@ -195,7 +197,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>12. Limitation of Liability</h2>
+          <h2 class='font-bold text-sky-800'>12. Limitation of Liability</h2>
           <p>
             To the maximum extent permitted by law, we are not liable for any
             direct, indirect, incidental, special, consequential, or punitive
@@ -207,7 +209,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>13. Indemnification</h2>
+          <h2 class='font-bold text-sky-800'>13. Indemnification</h2>
           <p>
             You agree to indemnify, defend, and hold harmless Naija Prime Ltd
             and its affiliates, employees, directors, and agents from any and
@@ -218,7 +220,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>14. Changes to Terms</h2>
+          <h2 class='font-bold text-sky-800'>14. Changes to Terms</h2>
           <p>
             We reserve the right to modify or update these Terms at any time. If
             we make material changes, we will notify you by posting the updated
@@ -228,7 +230,7 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>
+          <h2 class='font-bold text-sky-800'>
             15. Governing Law and Dispute Resolution
           </h2>
           <p>
@@ -241,14 +243,14 @@
         </div>
 
         <div>
-          <h2 className='font-bold'>16. Severability</h2>
+          <h2 class='font-bold text-sky-800'>16. Severability</h2>
           <p>
             If any provision of these Terms is found to be invalid or
             unenforceable, the remaining provisions will remain in full effect.
           </p>
         </div>
 
-        <div className='mt-8'>
+        <div class='mt-8'>
           <p>
             If you have any questions about these Terms, please contact us at:
             support@naijaprime.ng

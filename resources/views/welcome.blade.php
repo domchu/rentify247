@@ -30,12 +30,7 @@ $data = $controller->index();
     <x-sponsor-support />
 </div>
 {{-- FAQ --}}
-<?php
-    use App\Http\Controllers\FaqSection;
-    $controller = new FaqSection();
-    $data = $controller->index();
 
-    ?>
 <div>
     <x-Faq-Section :faqs="$data['faqs']" />
 </div>

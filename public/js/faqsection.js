@@ -15,7 +15,7 @@ const html = function (selected) {
 
         faqItem.innerHTML = `
         <div class="question-cont flex py-2 px-4 cursor-pointer">
-            <img class="icon-image w-6 h-6 invert" src="../assets/icon-caret-right.svg" alt="caret-right" />
+            <img class="icon-image w-6 h-6" src="../assets/icon-caret-right.svg" alt="caret-right" />
             <h1 class="question">${faq.question}</h1>
             
         </div>
@@ -83,13 +83,13 @@ const html = function (selected) {
         correctBtn.addEventListener("click", function (e) {
             e.preventDefault();
             correctBtn.style.backgroundColor = "green";
-            wrongBtn.style.backgroundColor = "#00246b";
+            wrongBtn.style.backgroundColor = "#075985";
         });
 
         wrongBtn.addEventListener("click", function (e) {
             e.preventDefault();
             wrongBtn.style.backgroundColor = "rgba(255, 0, 0, 0.864)";
-            correctBtn.style.backgroundColor = "#00246b";
+            correctBtn.style.backgroundColor = "#075985";
         });
 
         faqContainer.appendChild(faqItem);
