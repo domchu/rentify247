@@ -31,7 +31,7 @@
 }
 
 .faq-answer {
-    @apply bg-[#F8F9FA];
+    @apply bg-[--clr-white];
     line-height: 2;
     transition: all ease-in-out 0.3s;
 }
@@ -41,15 +41,15 @@
 }
 
 .question {
-    @apply text-sky-100;
+    @apply text-[--natural-clr-3];
 }
 
 .faq-reviews {
-    @apply flex flex-col items-center bg-[--bg-clr-grey];
+    @apply flex flex-col items-center bg-[--natural-clr-7] rounded;
 }
 
 .faq-reviews form {
-    @apply flex mt-4 mb-2;
+    @apply flex mb-2 mt-12;
 }
 
 .review {
@@ -57,8 +57,7 @@
 }
 
 .faq-answer .btn {
-    @apply text-white w-20 h-8 text-sm rounded-2xl uppercase;
-    background-color: var(--bg-clr-blue);
+    @apply text-white w-20 h-9 md:h-8 text-sm rounded-2xl uppercase bg-sky-800;
 }
 
 .btn-right {
@@ -66,7 +65,7 @@
 }
 
 .error-message {
-    @apply text-center text-lg text-[--clr-white];
+    @apply text-center text-lg text-sky-800;
 }
 
 #dropdown-btn.active {

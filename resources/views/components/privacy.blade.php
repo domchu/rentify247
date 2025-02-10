@@ -21,9 +21,9 @@
         </div>
       </div> -->
 
-      <div class="w-full px-4 py-16 rounded-t-lg bg-gradient-to-br from-[#075985] to-[#023e8a] text-white text-center">
-      <h1 class="text-4xl md:text-4xl lg:text-6xl">PRIVACY POLICY</h1>
-      <p>Effective Date: 01/04/2025</p>
+      <div class="w-full px-4 py-16 rounded-t-lg text-center shadow-md">
+      <h1 class="text-4xl md:text-4xl lg:text-6xl text-sky-800">PRIVACY POLICY</h1>
+      <p class="text-gray-400">Effective Date: 01/04/2025</p>
       </div>
      
       <main class="px-8 lg:px-12 py-8">
@@ -44,13 +44,13 @@
 </p>
 
 <div>
-  <h2 class='font-bold'>1. Information We Collect</h2>
+  <h2 class='font-bold text-sky-800'>1. Information We Collect</h2>
   <p>
     We may collect the following types of personal information when you
     interact with the Platform:
   </p>
 
-  <h3 class='font-bold mt-2'>1.1 Account Information</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>1.1 Account Information</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       Registration Data: When you sign up for an account, we collect
@@ -64,7 +64,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>1.2 Usage Data</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>1.2 Usage Data</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       Interaction Data: We collect information about your interactions
@@ -79,14 +79,14 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>1.3 Location Data</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>1.3 Location Data</h3>
   <p>
     If you enable location services on your device, we may collect your
     geographic location when you use certain features of the Platform
     (e.g., geotagging of posts, location-based content recommendations).
   </p>
 
-  <h3 class='font-bold mt-2'>1.4 Communications</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>1.4 Communications</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       Messages: If you send messages through the Platform (e.g., direct
@@ -99,7 +99,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>1.5 Payment Information</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>1.5 Payment Information</h3>
   <p>
     If you make purchases or transactions on the Platform (e.g., for
     premium features), we may collect your payment information, such as
@@ -110,10 +110,10 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>2. How We Use Your Information</h2>
+  <h2 class='font-bold text-sky-800'>2. How We Use Your Information</h2>
   <p>We use your personal information for the following purposes:</p>
 
-  <h3 class='font-bold mt-2'>
+  <h3 class='font-bold text-sky-800 mt-2'>
     2.1 To Provide and Improve the Platform
   </h3>
   <ul class='list-disc pl-8 mt-2'>
@@ -128,7 +128,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>2.2 To Communicate with You</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>2.2 To Communicate with You</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       To send you account-related notifications, such as password
@@ -142,7 +142,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>2.3 For Security and Safety</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>2.3 For Security and Safety</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       To monitor activity for security and fraud prevention purposes,
@@ -154,7 +154,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>2.4 To Improve Our Services</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>2.4 To Improve Our Services</h3>
   <ul class='list-disc pl-8 mt-2'>
     <li>
       To analyse user behaviour, trends, and feedback in order to
@@ -166,7 +166,7 @@
     </li>
   </ul>
 
-  <h3 class='font-bold mt-2'>
+  <h3 class='font-bold text-sky-800 mt-2'>
     2.5 To Send Promotional and Marketing Communications
   </h3>
   <ul class='list-disc pl-8 mt-2'>
@@ -183,13 +183,13 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>3. How We Share Your Information</h2>
+  <h2 class='font-bold text-sky-800'>3. How We Share Your Information</h2>
   <p>
     We do not sell or rent your personal information to third parties.
     However, we may share your information in the following situations:
   </p>
 
-  <h3 class='font-bold mt-2'>3.1 With Service Providers</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>3.1 With Service Providers</h3>
   <p>
     We may share your information with third-party vendors, service
     providers, and partners who help us operate the Platform and provide
@@ -198,7 +198,7 @@
     in accordance with this Policy.
   </p>
 
-  <h3 class='font-bold mt-2'>3.2 With Other Users</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>3.2 With Other Users</h3>
   <p>
     Certain information, such as your public profile, posts, and
     comments, may be visible to other users of the Platform. Your
@@ -206,7 +206,7 @@
     also be visible on the Platform.
   </p>
 
-  <h3 class='font-bold mt-2'>3.3 In Case of Legal Obligations</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>3.3 In Case of Legal Obligations</h3>
   <p>
     We may disclose your information if required by law or if we believe
     such disclosure is necessary to comply with legal obligations,
@@ -214,7 +214,7 @@
     process (e.g., court orders, subpoenas).
   </p>
 
-  <h3 class='font-bold mt-2'>
+  <h3 class='font-bold text-sky-800 mt-2'>
     3.4 In the Event of a Business Transfer
   </h3>
   <p>
@@ -226,7 +226,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>4. Data Retention</h2>
+  <h2 class='font-bold text-sky-800'>4. Data Retention</h2>
   <p>
     We retain your personal information for as long as necessary to
     fulfil the purposes outlined in this Policy, unless a longer
@@ -237,19 +237,19 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>5. Your Rights and Choices</h2>
+  <h2 class='font-bold text-sky-800'>5. Your Rights and Choices</h2>
   <p>
     Depending on your jurisdiction, you may have the following rights
     regarding your personal information:
   </p>
 
-  <h3 class='font-bold mt-2'>5.1 Access and Correction</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>5.1 Access and Correction</h3>
   <p>
     You can access and update your personal information through your
     account settings at any time.
   </p>
 
-  <h3 class='font-bold mt-2'>5.2 Data Deletion</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>5.2 Data Deletion</h3>
   <p>
     You can delete your account by following the account deletion
     process in your account settings. Upon deletion, we will remove your
@@ -258,7 +258,7 @@
     purposes.
   </p>
 
-  <h3 class='font-bold mt-2'>
+  <h3 class='font-bold text-sky-800 mt-2'>
     5.3 Opt-Out of Marketing Communications
   </h3>
   <p>
@@ -267,14 +267,14 @@
     preferences in your account settings.
   </p>
 
-  <h3 class='font-bold mt-2'>5.4 Data Portability</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>5.4 Data Portability</h3>
   <p>
     In some jurisdictions, you may have the right to request a copy of
     your personal information in a structured, commonly used, and
     machine-readable format.
   </p>
 
-  <h3 class='font-bold mt-2'>5.5 Withdrawal of Consent</h3>
+  <h3 class='font-bold text-sky-800 mt-2'>5.5 Withdrawal of Consent</h3>
   <p>
     If you have provided consent for the processing of your personal
     information (such as location data or marketing communications), you
@@ -284,7 +284,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>6. Security of Your Information</h2>
+  <h2 class='font-bold text-sky-800'>6. Security of Your Information</h2>
   <p>
     We take the security of your personal information seriously and
     implement reasonable administrative, technical, and physical
@@ -296,7 +296,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>7. International Data Transfers</h2>
+  <h2 class='font-bold text-sky-800'>7. International Data Transfers</h2>
   <p>
     If you are accessing the Platform from outside the country where our
     servers are located, please be aware that your information may be
@@ -307,7 +307,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>8. Children&apos;s Privacy</h2>
+  <h2 class='font-bold text-sky-800'>8. Children&apos;s Privacy</h2>
   <p>
     The Platform is not intended for children under the age of 13, and
     we do not knowingly collect personal information from children under
@@ -317,7 +317,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>9. Changes to This Privacy Policy</h2>
+  <h2 class='font-bold text-sky-800'>9. Changes to This Privacy Policy</h2>
   <p>
     We reserve the right to modify or update this Privacy Policy at any
     time. If we make significant changes, we will notify you by posting
@@ -328,7 +328,7 @@
 </div>
 
 <div>
-  <h2 class='font-bold'>10. Contact Us</h2>
+  <h2 class='font-bold text-sky-800'>10. Contact Us</h2>
   <p>
     If you have any questions or concerns about this Privacy Policy or
     how we handle your personal information, please contact us at:
